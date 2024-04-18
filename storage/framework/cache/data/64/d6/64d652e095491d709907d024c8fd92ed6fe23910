@@ -1,0 +1,34 @@
+1713449710a:1:{s:27:"click-and-collect.blade.php";a:10:{s:8:"fileName";s:27:"click-and-collect.blade.php";s:5:"mTime";i:1713439175;s:7:"content";s:488:"---
+'[localList]':
+    alias: '[localList]'
+    distanceUnit: mi
+    searchParamName: search
+    sortByParamName: sort_by
+    orderTypeParamName: order_type
+title: 'Click and Collect'
+permalink: click-and-collect
+layout: account
+description: ''
+---
+<div class="container">
+    <div class="row py-4">
+        <div class="locations-filter col-sm-3">
+        </div>
+        <div class="location-list col-sm-9">
+
+
+            @component('localList')
+        </div>
+    </div>
+</div>";s:6:"markup";s:240:"
+<div class="container">
+    <div class="row py-4">
+        <div class="locations-filter col-sm-3">
+        </div>
+        <div class="location-list col-sm-9">
+
+
+            @component('localList')
+        </div>
+    </div>
+</div>";s:4:"code";N;s:11:"[localList]";a:5:{s:5:"alias";s:11:"[localList]";s:12:"distanceUnit";s:2:"mi";s:15:"searchParamName";s:6:"search";s:15:"sortByParamName";s:7:"sort_by";s:18:"orderTypeParamName";s:10:"order_type";}s:5:"title";s:17:"Click and Collect";s:9:"permalink";s:17:"click-and-collect";s:6:"layout";s:7:"account";s:11:"description";s:0:"";}}

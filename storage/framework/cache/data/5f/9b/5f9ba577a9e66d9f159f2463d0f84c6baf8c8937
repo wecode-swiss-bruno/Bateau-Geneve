@@ -1,0 +1,139 @@
+1713449688a:1:{s:15:"local.blade.php";a:15:{s:8:"fileName";s:15:"local.blade.php";s:5:"mTime";i:1713426551;s:7:"content";s:2324:"---
+description: 'Local layout'
+'[session]':
+    security: all
+'[staticMenu mainMenu]':
+    code: main-menu
+'[staticMenu footerMenu]':
+    code: footer-menu
+'[newsletter]': {  }
+'[localSearch]': null
+'[localBox]':
+    paramFrom: location
+    redirect: home
+    defaultOrderType: collection
+    showLocalThumb: 0
+    localThumbWidth: 80.0
+    localThumbHeight: 80.0
+    menusPage: local/menus
+    localSearchAlias: localSearch
+'[categories]': null
+'[cartBox]':
+    checkStockCheckout: 1
+    showCartItemThumb: 1
+    pageIsCheckout: 0
+    pageIsCart: 0
+'[localList]':
+    distanceUnit: km
+    searchParamName: search
+    sortByParamName: sort_by
+    orderTypeParamName: order_type
+---
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ App::getLocale() }}" class="h-100">
+<head>
+    @partial('head')
+</head>
+<body class="d-flex flex-column h-100 {{ $this->page->bodyClass }}">
+
+    <header class="header">
+        @partial('header')
+    </header>
+
+    <main role="main">
+        <div id="page-wrapper">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-2 d-none d-lg-inline-block">
+                    
+                        <div class="categories affix-categories">
+                            @component('categories')
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="content">
+                            @partial('localBox::container')
+
+                            @page
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        @partial('cartBox::container')
+                    </div>
+                </div>
+              <div class="row py-4">
+                  	<div class="col-lg-8">
+                      <h2 class="h2">Changer de restaurant</h2>
+                          @component('localList')
+                      </div>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto d-none d-lg-block">
+        @partial('footer')
+    </footer>
+    <div id="notification">
+        @partial('flash')
+    </div>
+    @partial('eucookiebanner')
+    @partial('scripts')
+</body>
+</html>";s:6:"markup";s:1642:"
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ App::getLocale() }}" class="h-100">
+<head>
+    @partial('head')
+</head>
+<body class="d-flex flex-column h-100 {{ $this->page->bodyClass }}">
+
+    <header class="header">
+        @partial('header')
+    </header>
+
+    <main role="main">
+        <div id="page-wrapper">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-lg-2 d-none d-lg-inline-block">
+                    
+                        <div class="categories affix-categories">
+                            @component('categories')
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="content">
+                            @partial('localBox::container')
+
+                            @page
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        @partial('cartBox::container')
+                    </div>
+                </div>
+              <div class="row py-4">
+                  	<div class="col-lg-8">
+                      <h2 class="h2">Changer de restaurant</h2>
+                          @component('localList')
+                      </div>
+              </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto d-none d-lg-block">
+        @partial('footer')
+    </footer>
+    <div id="notification">
+        @partial('flash')
+    </div>
+    @partial('eucookiebanner')
+    @partial('scripts')
+</body>
+</html>";s:4:"code";N;s:11:"description";s:12:"Local layout";s:9:"[session]";a:1:{s:8:"security";s:3:"all";}s:21:"[staticMenu mainMenu]";a:1:{s:4:"code";s:9:"main-menu";}s:23:"[staticMenu footerMenu]";a:1:{s:4:"code";s:11:"footer-menu";}s:12:"[newsletter]";a:0:{}s:13:"[localSearch]";N;s:10:"[localBox]";a:8:{s:9:"paramFrom";s:8:"location";s:8:"redirect";s:4:"home";s:16:"defaultOrderType";s:10:"collection";s:14:"showLocalThumb";i:0;s:15:"localThumbWidth";d:80;s:16:"localThumbHeight";d:80;s:9:"menusPage";s:11:"local/menus";s:16:"localSearchAlias";s:11:"localSearch";}s:12:"[categories]";N;s:9:"[cartBox]";a:4:{s:18:"checkStockCheckout";i:1;s:17:"showCartItemThumb";i:1;s:14:"pageIsCheckout";i:0;s:10:"pageIsCart";i:0;}s:11:"[localList]";a:4:{s:12:"distanceUnit";s:2:"km";s:15:"searchParamName";s:6:"search";s:15:"sortByParamName";s:7:"sort_by";s:18:"orderTypeParamName";s:10:"order_type";}}}

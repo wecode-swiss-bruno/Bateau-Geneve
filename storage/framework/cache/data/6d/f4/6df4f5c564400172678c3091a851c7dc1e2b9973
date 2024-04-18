@@ -1,0 +1,41 @@
+1713449710a:1:{s:19:"locations.blade.php";a:12:{s:8:"fileName";s:19:"locations.blade.php";s:5:"mTime";i:1713442399;s:7:"content";s:570:"---
+title: 'main::lang.locations.title'
+layout: default
+permalink: /locations
+'[localList]': null
+'[localSearch]':
+    alias: '[localSearch]'
+    hideSearch: null
+    menusPage: local/menus
+description: ''
+'[slider]':
+    code: restaurants
+    height: 60vh
+    effect: ease
+    delayInterval: 5000.0
+    hideControls: 0
+    hideIndicators: 0
+    hideCaptions: 0
+---
+@component('slider')
+<div class="container">
+    <div class="row py-4">
+     
+        <div class="location-list col-sm-12">
+
+
+            @component('localList')
+        </div>
+    </div>
+</div>";s:6:"markup";s:205:"
+@component('slider')
+<div class="container">
+    <div class="row py-4">
+     
+        <div class="location-list col-sm-12">
+
+
+            @component('localList')
+        </div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:26:"main::lang.locations.title";s:6:"layout";s:7:"default";s:9:"permalink";s:10:"/locations";s:11:"[localList]";N;s:13:"[localSearch]";a:3:{s:5:"alias";s:13:"[localSearch]";s:10:"hideSearch";N;s:9:"menusPage";s:11:"local/menus";}s:11:"description";s:0:"";s:8:"[slider]";a:7:{s:4:"code";s:11:"restaurants";s:6:"height";s:4:"60vh";s:6:"effect";s:4:"ease";s:13:"delayInterval";d:5000;s:12:"hideControls";i:0;s:14:"hideIndicators";i:0;s:12:"hideCaptions";i:0;}}}

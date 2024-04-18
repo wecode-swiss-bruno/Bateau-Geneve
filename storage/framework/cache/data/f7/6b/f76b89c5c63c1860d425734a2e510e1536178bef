@@ -1,0 +1,39 @@
+1713449710a:1:{s:14:"home.blade.php";a:13:{s:8:"fileName";s:14:"home.blade.php";s:5:"mTime";i:1713449317;s:7:"content";s:525:"---
+title: 'main::lang.home.title'
+permalink: /
+description: ''
+layout: default
+'[slider]':
+    code: home-slider
+'[localSearch]':
+    hideSearch: 0
+'[localList]':
+    distanceUnit: km
+    searchParamName: search
+    sortByParamName: sort_by
+    orderTypeParamName: order_type
+---
+@component('slider')
+
+
+<div class="container py-4">
+  <div class="row">
+    <h1 class="h1">{!! lang('main::lang.menu_locations') !!}</h1>
+    @component('localList')
+
+  </div>
+</div>
+
+@component('localePicker')";s:6:"markup";s:222:"
+@component('slider')
+
+
+<div class="container py-4">
+  <div class="row">
+    <h1 class="h1">{!! lang('main::lang.menu_locations') !!}</h1>
+    @component('localList')
+
+  </div>
+</div>
+
+@component('localePicker')";s:4:"code";N;s:5:"title";s:21:"main::lang.home.title";s:9:"permalink";s:1:"/";s:11:"description";s:0:"";s:6:"layout";s:7:"default";s:8:"[slider]";a:1:{s:4:"code";s:11:"home-slider";}s:13:"[localSearch]";a:1:{s:10:"hideSearch";i:0;}s:11:"[localList]";a:4:{s:12:"distanceUnit";s:2:"km";s:15:"searchParamName";s:6:"search";s:15:"sortByParamName";s:7:"sort_by";s:18:"orderTypeParamName";s:10:"order_type";}s:14:"[localePicker]";a:0:{}}}
