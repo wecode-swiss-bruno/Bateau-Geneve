@@ -5,6 +5,8 @@
 ]); ?>
 
 
+
+
 <div
     id="<?php echo e($this->getId()); ?>"
     class="list-table table-responsive"
@@ -12,12 +14,13 @@
     <table
         id="<?php echo e($this->getId('table')); ?>"
         class="table table-hover mb-0 border-bottom"
+        data-show-print="true"
     >
         <thead>
-        <?php if($showCheckboxes): ?>
+        <!-- <?php if($showCheckboxes): ?>
             <?php echo $this->makePartial('lists/list_actions'); ?>
 
-        <?php endif; ?>
+        <?php endif; ?> -->
         <?php echo $this->makePartial('lists/list_head'); ?>
 
         </thead>
@@ -44,4 +47,6 @@
     <?php echo $this->makePartial('lists/list_setup'); ?>
 
 <?php endif; ?>
+
+
 <?php /**PATH /Applications/MAMP/htdocs/bateau-geneve/app/admin/widgets/lists/list.blade.php ENDPATH**/ ?>

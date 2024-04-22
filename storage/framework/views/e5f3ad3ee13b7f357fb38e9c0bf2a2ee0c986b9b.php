@@ -2,11 +2,11 @@
     class="list-header"
 >
     <?php if($showDragHandle): ?>
-        <th class="list-action"></th>
+        <th class="list-action" data-field="list-action-drag-handle"></th>
     <?php endif; ?>
 
     <?php if($showCheckboxes): ?>
-        <th class="list-action text-nowrap">
+        <th class="list-action text-nowrap" data-field="list-action-checkboxes">
             <div class="form-check">
                 <input
                     type="checkbox" id="<?php echo e('checkboxAll-'.$listId); ?>"
@@ -18,9 +18,10 @@
 
     <?php $__currentLoopData = $columns; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $column): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
         <?php if($column->type == 'button'): ?>
-            <th class="list-action <?php echo e($column->cssClass); ?> text-nowrap"></th>
+            <th class="list-action <?php echo e($column->cssClass); ?> text-nowrap"  data-field="<?php echo e($column->cssClass); ?>asfdadsf" data-field="<?php echo e($column->cssClass); ?>2345235"></th>
         <?php elseif($showSorting && $column->sortable): ?>
             <th
+            data-field="<?php echo e($column->getName()); ?>"
                 class="list-cell-name-<?php echo e($column->getName()); ?> list-cell-type-<?php echo e($column->type); ?> <?php echo e($column->cssClass); ?> text-nowrap"
                 <?php if($column->width): ?> style="width: <?php echo e($column->width); ?>" <?php endif; ?>>
                 <a
@@ -36,6 +37,7 @@
         <?php else: ?>
             <th
                 class="list-cell-name-<?php echo e($column->getName()); ?> list-cell-type-<?php echo e($column->type); ?> text-nowrap"
+                data-field="<?php echo e($column->getName()); ?>"
                 <?php if($column->width): ?> style="width: <?php echo e($column->width); ?>" <?php endif; ?>
             >
                 <span><?php echo e($this->getHeaderValue($column)); ?></span>
@@ -44,7 +46,7 @@
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
     <?php if($showFilter): ?>
-        <th class="list-setup">
+        <th class="list-setup" data-field="list-action-filters">
             <button
                 type="button"
                 class="btn btn-outline-default btn-sm border-none"
@@ -55,7 +57,7 @@
         </th>
     <?php endif; ?>
     <?php if($showSetup): ?>
-        <th class="list-setup">
+        <th class="list-setup" data-field="list-action-show-setup">
             <button
                 type="button"
                 class="btn btn-outline-default btn-sm border-none"

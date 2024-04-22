@@ -52,6 +52,7 @@ $config['list']['toolbar'] = [
             'href' => 'reservations/calendar',
             'context' => 'index',
         ],
+
     ],
 ];
 
@@ -150,6 +151,22 @@ $config['calendar']['toolbar'] = [
             'class' => 'btn btn-default',
             'href' => 'reservations',
             'context' => 'calendar',
+        ],
+    ],
+];
+
+$config['printList']['toolbar'] = [
+    'buttons' => [
+        'create' => [
+            'label' => 'lang:admin::lang.button_new',
+            'class' => 'btn btn-primary',
+            'href' => 'reservations/create',
+        ],
+        'list' => [
+            'label' => 'lang:admin::lang.text_switch_to_list',
+            'class' => 'btn btn-default',
+            'href' => 'reservations',
+            'context' => 'printList',
         ],
     ],
 ];

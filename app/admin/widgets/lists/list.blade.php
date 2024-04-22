@@ -4,6 +4,8 @@
     'method' => 'POST',
 ]) !!}
 
+
+
 <div
     id="{{ $this->getId() }}"
     class="list-table table-responsive"
@@ -11,11 +13,12 @@
     <table
         id="{{ $this->getId('table') }}"
         class="table table-hover mb-0 border-bottom"
+        data-show-print="true"
     >
         <thead>
-        @if ($showCheckboxes)
+        <!-- @if ($showCheckboxes)
             {!! $this->makePartial('lists/list_actions') !!}
-        @endif
+        @endif -->
         {!! $this->makePartial('lists/list_head') !!}
         </thead>
         <tbody>
@@ -37,3 +40,5 @@
 @if ($showSetup)
     {!! $this->makePartial('lists/list_setup') !!}
 @endif
+
+
