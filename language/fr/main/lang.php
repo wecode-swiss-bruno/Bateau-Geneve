@@ -18,8 +18,6 @@ return [
     'menu_home' => 'Page d’accueil',
     'menu_menu' => 'Voir le menu',
     'menu_reservation' => 'Réservation',
-    'menu_booking' => 'Réserver une table',
-    'menu_order_now' => 'Click & Collect',
     'menu_login' => 'Se Connecter',
     'menu_logout' => 'Déconnexion',
     'menu_register' => 'S\'inscrire',
@@ -29,7 +27,7 @@ return [
     'menu_address' => 'Carnet d\'adresses',
     'menu_recent_order' => 'Commandes récentes',
     'menu_recent_reservation' => 'Réservations récentes',
-    'menu_locations' => 'Nos restaurants',
+    'menu_locations' => 'Nos emplacements',
     'menu_contact' => 'Contactez-nous',
     'menu_admin' => 'Administrateur',
 

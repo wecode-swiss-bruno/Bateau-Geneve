@@ -4,8 +4,6 @@ description: 'Local layout'
 '[session]':
     security: all
 
-'[localePicker]':
-
 '[staticMenu mainMenu]':
     code: main-menu
 

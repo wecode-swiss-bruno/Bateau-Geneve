@@ -1,10 +1,13 @@
 @foreach ($locationsList as $locationObject)
-
-        <div class="boxes d-sm-flex g-0 py-3 justify-content-center">
+    <a
+        class="card w-100 p-3 mb-2 text-decoration-none"
+        href="{{ page_url('local/menus', ['location' => $locationObject->permalink]) }}"
+    >
+        <div class="boxes d-sm-flex g-0">
             <div class="col-12 col-sm-7">
-                <div class="d-sm-flex  align-items-center">
+                <div class="d-sm-flex">
                     @if ($locationObject->hasThumb)
-                        <div class="col-sm-4 p-0 me-sm-4 mb-3 mb-sm-0">
+                        <div class="col-sm-3 p-0 me-sm-4 mb-3 mb-sm-0">
                             <img
                                 class="img-fluid img-fluid"
                                 src="{{ $locationObject->thumb }}"
@@ -23,17 +26,11 @@
                                 </div>
                             @endif
                         </div>
-                        <div class="text-muted ">
+                        <div class="text-muted text-truncate">
                             {{ format_address($locationObject->address) }}
                         </div>
-                        <div class="mt-2">
-                            <a class="btn btn-primary mb-2" href="{{ page_url($locationObject->permalink.'/reservation', ['location' => $locationObject->permalink]) }}">{!! lang('main::lang.menu_booking') !!}</a>
-                            <a  class="btn btn-primary mb-2" href="{{ page_url('local/menus', ['location' => $locationObject->permalink]) }}">{!! lang('main::lang.menu_order_now') !!}</a>
-
-
-</div>
                         @if ($locationObject->distance)
-                            <div class="d-none">
+                            <div>
                                 <span
                                     class="text-muted small"
                                 ><i class="fa fa-map-marker"></i>&nbsp;&nbsp;{{ number_format($locationObject->distance, 1) }} {{ $distanceUnit }}</span>
@@ -42,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-sm-5">
                 <dl class="no-spacing">
                     @if ($locationObject->openingSchedule->isOpen())
                         <dt>@lang('igniter.local::default.text_is_opened')</dt>
@@ -67,6 +64,5 @@
                 </dl>
             </div>
         </div>
-        <hr>
-
+    </a>
 @endforeach

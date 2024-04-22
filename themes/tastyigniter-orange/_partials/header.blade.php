@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-light navbar-top navbar-expand-md fixed-top">
     <div class="container">
         @partial('nav/logo')
@@ -14,8 +13,6 @@
 
         <div class="justify-content-end collapse navbar-collapse" id="navbarMainHeader">
             @partial('nav/main_menu', ['items' => $mainMenu->menuItems()])
-            @component('localePicker')
-
         </div>
     </div>
 </nav>

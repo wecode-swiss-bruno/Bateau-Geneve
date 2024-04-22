@@ -2,7 +2,7 @@
 
 return [
     'system_name' => 'TastyIgniter',
-    'system_powered' => '<a href="https://wecode.swiss">Developed by Wecode</a>',
+    'system_powered' => '<a target="_blank" href="http://tastyigniter.com">Powered by TastyIgniter</a>',
     'copyright' => 'Thank you for using <a target="_blank" href="http://tastyigniter.com">TastyIgniter</a>',
     'version' => '<b>Version:</b> %s',
 
@@ -49,14 +49,14 @@ return [
         'date_format' => 'DD MMM YYYY',
         'date_format_short' => 'DD MMM',
         'date_format_long' => 'dddd, Do MMM YYYY',
-        'time_format' => 'HH:mm',
+        'time_format' => 'hh:mm a',
         'date_time_format' => 'DD MMMM YYYY HH:mm',
         'date_time_format_short' => 'DD MMM \a\t HH:mm',
-        'date_time_format_long' => 'dddd, Do MMMM YYYY \a\t HH:mm',
+        'date_time_format_long' => 'dddd, Do MMMM YYYY \a\t HH:mm a',
         'weekday_format' => 'ddd',
         'day_format' => 'ddd DD',
-        'day_time_format' => 'ddd DD HH:mm',
-        'day_time_format_short' => 'ddd HH:mm',
+        'day_time_format' => 'ddd DD hh:mm a',
+        'day_time_format_short' => 'ddd hh:mm a',
     ],
 
     'activities' => [

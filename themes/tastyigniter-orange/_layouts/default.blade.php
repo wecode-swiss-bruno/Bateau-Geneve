@@ -11,7 +11,6 @@ description: Default layout
     code: footer-menu
 
 '[newsletter]': {  }
-'[localePicker]':
 ---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ App::getLocale() }}" class="h-100">
@@ -22,7 +21,6 @@ description: Default layout
 
     <header class="header">
         @partial('header')
-
     </header>
 
     <main role="main">

@@ -36,10 +36,10 @@
                                     <label
                                         class="form-check-label d-block"
                                         for="payment-{{ $paymentGateway->code }}"
-                                    >{{ lang('igniter.payregister::default.' . $paymentGateway->code . '.text_payment_title') }}</label>
+                                    >{{ $paymentGateway->name }}</label>
                                     @if (strlen($paymentGateway->description))
-                                        <p class=" small fw-normal mb-0">
-                                        {{ lang('igniter.payregister::default.' . $paymentGateway->code . '.text_payment_desc') }}
+                                        <p class="hide small fw-normal mb-0">
+                                            {!! $paymentGateway->description !!}
                                         </p>
                                     @endif
                                     @if ($paymentIsNotApplicable)

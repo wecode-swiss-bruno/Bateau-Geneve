@@ -354,6 +354,13 @@ class ServiceProvider extends AppServiceProvider
                             'title' => lang('admin::lang.side_menu.table'),
                             'permission' => 'Admin.Tables',
                         ],
+                        'availabilities' => [
+                            'priority' => 60,
+                            'class' => 'availabilities',
+                            'href' => admin_url('availabilities'),
+                            'title' => lang('admin::lang.side_menu.availability'),
+                            'permission' => 'Admin.Availabilities',
+                        ],
                     ],
                 ],
                 'sales' => [

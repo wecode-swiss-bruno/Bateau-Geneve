@@ -216,24 +216,13 @@ $config['form']['tabs'] = [
             'default' => 1,
             'comment' => 'lang:admin::lang.menus.help_minimum_qty',
         ],
-        'menu_pieces' => [
-            'label' => 'Number of pieces',
-            'type' => 'number',
-            'span' => 'left',
-        ],
-        // 'stock_qty' => [
-        //     'label' => 'lang:admin::lang.menus.label_stock_qty',
-        //     'type' => 'stockeditor',
-        //     'span' => 'right',
-        //     'context' => ['edit', 'preview'],
-        //     'default' => 0,
-        //     'comment' => 'lang:admin::lang.menus.help_stock_qty',
-        // ],
-        'menu_extra' => [
-            'label' => 'Extras',
-            'type' => 'checkboxtoggle',
-            'span' => 'left',
-            'options' => ['Vegan', 'Vegetarian'],
+        'stock_qty' => [
+            'label' => 'lang:admin::lang.menus.label_stock_qty',
+            'type' => 'stockeditor',
+            'span' => 'right',
+            'context' => ['edit', 'preview'],
+            'default' => 0,
+            'comment' => 'lang:admin::lang.menus.help_stock_qty',
         ],
         'order_restriction' => [
             'label' => 'lang:admin::lang.menus.label_order_restriction',

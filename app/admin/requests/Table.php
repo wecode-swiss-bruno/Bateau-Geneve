@@ -35,4 +35,4 @@ class Table extends FormRequest
             'locations.*' => ['integer'],
         ];
     }
-}
+} 

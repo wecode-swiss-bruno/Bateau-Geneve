@@ -327,8 +327,6 @@ class CreateTables extends Migration
             $table->integer('menu_id', true);
             $table->string('menu_name');
             $table->text('menu_description');
-            $table->integer('menu_pieces');
-            $table->integer('menu_calories');
             $table->decimal('menu_price', 15, 4);
             $table->string('menu_photo');
             $table->integer('menu_category_id');

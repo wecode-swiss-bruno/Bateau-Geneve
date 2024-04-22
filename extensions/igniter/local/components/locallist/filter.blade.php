@@ -2,7 +2,7 @@
     <div class="card mb-3">
         <div class="card-body">
             <div class="d-flex">
-                <h5 class="mb-0 flex-grow-1 d-none">
+                <h5 class="mb-0 d-inline-block flex-grow-1">
                     <i class="fa fa-map-marker"></i>&nbsp;&nbsp;
                     {{ $searchQueryPosition->getLocality() }}
                 </h5>

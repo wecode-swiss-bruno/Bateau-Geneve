@@ -16,7 +16,6 @@ description: Static layout for static pages
     code: pages-menu
 
 '[newsletter]': {  }
-'[localePicker]':
 ---
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ App::getLocale() }}" class="h-100">

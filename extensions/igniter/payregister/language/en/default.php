@@ -33,7 +33,7 @@ return [
 
     'cod' => [
         'text_tab_general' => 'General',
-        'text_payment_title' => 'Pay at pickup',
+        'text_payment_title' => 'Cash On Delivery',
         'text_payment_desc' => 'Accept cash on delivery during checkout',
 
         'label_title' => 'Title',

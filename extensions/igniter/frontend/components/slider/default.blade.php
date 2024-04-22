@@ -20,15 +20,18 @@
         @foreach ($__SELF__->slides() as $slide)
             <div
                 class="carousel-item {{ $loop->first ? 'active' : '' }}"
-                style="max-height:{{ $sliderHeight }};  background: url({{ $slide->getThumb() }}) rgba(0, 0, 0, 0.3); background-size: cover; background-position: center; background-blend-mode: multiply;"
-            >             
-            <div style="height: 100vh;"></div>
-  
+                style="max-height:{{ $sliderHeight }};"
+            >
+                <img
+                    src="{{ $slide->getThumb() }}"
+                    class="d-block w-100"
+                    alt="{{ $slide->getCustomProperty('title') }}"
+                />
 
                 @if ($showSliderCaptions && strlen($slide->getCustomProperty('description')))
-                    <div class="carousel-caption p-3 d-md-block">
-                        <h1 class="h1" style="max-width:700px; margin:auto;">{{ $slide->getCustomProperty('title') }}</h1>
-                        <p class="h3" style="max-width:700px; margin:auto;">{{ $slide->getCustomProperty('description') }}</p>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>{{ $slide->getCustomProperty('title') }}</h5>
+                        <p>{{ $slide->getCustomProperty('description') }}</p>
                     </div>
                 @endif
             </div>

@@ -6,9 +6,6 @@ use System\Classes\FormRequest;
 
 class Category extends FormRequest
 {
-
-    public $implement = [\Igniter\Translate\Actions\TranslatableModel::class];
-
     public function attributes()
     {
         return [
@@ -33,9 +30,5 @@ class Category extends FormRequest
             'status' => ['boolean'],
             'locations.*' => ['integer'],
         ];
-    }
-
-    public function translatable() {
-        return ['name'];
     }
 }

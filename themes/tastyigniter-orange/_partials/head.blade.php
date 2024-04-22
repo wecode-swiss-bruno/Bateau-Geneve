@@ -1,5 +1,3 @@
-
-
 {!! get_metas() !!}
 <meta name="csrf-token" content="{{ csrf_token() }}">
 @if (trim($favicon = $this->theme->favicon, '/'))

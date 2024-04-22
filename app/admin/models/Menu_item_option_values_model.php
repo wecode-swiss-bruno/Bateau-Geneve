@@ -24,7 +24,7 @@ class Menu_item_option_values_model extends Model
      */
     protected $primaryKey = 'menu_option_value_id';
 
-    protected $fillable = ['menu_option_id', 'menu_id', 'option_id', 'option_value_id', 'new_price', 'priority', 'is_default',];
+    protected $fillable = ['menu_option_id', 'menu_id', 'option_id', 'option_value_id', 'new_price', 'priority', 'is_default'];
 
     public $appends = ['name', 'price'];
 

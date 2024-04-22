@@ -1,4 +1,4 @@
-<ul class="nav navbar-nav align-items-center">
+<ul class="nav navbar-nav">
     @foreach ($items as $navItem)
         @continue(Auth::isLogged() && in_array($navItem->code, ['login', 'register']))
         @continue(!Auth::isLogged() && in_array($navItem->code, ['account', 'recent-orders']))

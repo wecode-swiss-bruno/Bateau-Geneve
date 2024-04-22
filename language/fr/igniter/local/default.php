@@ -82,7 +82,7 @@ return [
     'label_local_image_width' => 'Largeur de la vignette de localisation',
 
     'label_order_time' => '%s fois',
-    'label_choose_order_time' => 'Planifier le retrait',
+    'label_choose_order_time' => 'Régler %s fois',
     'label_date' => 'Sélectionnez une date',
     'label_time' => 'Sélectionnez une heure',
     'label_minute' => 'Minute',

@@ -84,7 +84,7 @@ return [
     'label_local_image_width' => 'Location Thumb Width',
 
     'label_order_time' => '%s Time',
-    'label_choose_order_time' => 'Choose pick-up time',
+    'label_choose_order_time' => 'Set %s Time',
     'label_date' => 'Select a date',
     'label_time' => 'Select a time',
     'label_minute' => 'Minute',

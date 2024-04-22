@@ -28,8 +28,8 @@ return [
 
     'cod' => [
         'text_tab_general' => 'Général',
-        'text_payment_title' => 'Paiement au retrait de la commande',
-        'text_payment_desc' => 'Choisir paiement au retrait de la commande',
+        'text_payment_title' => 'Paiement à la livraison',
+        'text_payment_desc' => 'Choisir paiement à la livraison lors de la commande',
 
         'label_title' => 'Titre',
         'label_status' => 'Statut',

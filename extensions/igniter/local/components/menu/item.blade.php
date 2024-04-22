@@ -17,12 +17,6 @@
             <p class="menu-desc text-muted mb-0">
                 {!! nl2br($menuItem->menu_description) !!}
             </p>
-            @if ($menuItem->menu_pieces)
-            <p>
-                Pieces:     {{ $menuItem->menu_pieces }}    
-            </p>
-            @endif
-  
         </div>
         <div class="menu-detail d-flex justify-content-end col-3 p-0">
             @if ($menuItemObject->specialIsActive)
@@ -39,8 +33,8 @@
                     <s>{!! currency_format($menuItemObject->menuPriceBeforeSpecial) !!}</s>
                 @endif
                 {!! $menuItemObject->menuPrice > 0
-    ? '<b>' . currency_format($menuItemObject->menuPrice) . '</b>'
-    : sprintf(lang('igniter.local::default.text_price_form'), '<b>' . currency_format($menuItem->menu_price_from) . '</b>')
+                    ? '<b>'.currency_format($menuItemObject->menuPrice).'</b>'
+                    : sprintf(lang('igniter.local::default.text_price_form'), '<b>'.currency_format($menuItem->menu_price_from).'</b>')
                 !!}
             </div>
 

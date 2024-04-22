@@ -18,8 +18,6 @@ return [
     'menu_home' => 'Home',
     'menu_menu' => 'View Menu',
     'menu_reservation' => 'Reservation',
-    'menu_booking' => 'Book a table',
-    'menu_order_now' => 'Order Click & Collect',
     'menu_login' => 'Login',
     'menu_logout' => 'Logout',
     'menu_register' => 'Register',
@@ -29,7 +27,7 @@ return [
     'menu_address' => 'Address Book',
     'menu_recent_order' => 'Recent Orders',
     'menu_recent_reservation' => 'Recent Reservations',
-    'menu_locations' => 'Our Restaurants',
+    'menu_locations' => 'Our Locations',
     'menu_contact' => 'Contact Us',
     'menu_admin' => 'Administrator',
 

@@ -153,7 +153,7 @@ return [
         'label_collection' => 'Enlèvement',
         'label_payment_method' => 'Méthode de paiement',
         'label_terms' => 'En cliquant sur Inscription, vous acceptez les <a target="_blank" href="%s">conditions générales</a> définies par ce site, y compris notre utilisation des cookies.',
-        'label_comment' => 'Laisser un commentaire',
+        'label_comment' => 'Leave a note',
         'label_ip' => 'Adresse IP',
         'label_checkout_terms' => 'Termes et conditions de la commande',
 
