@@ -529,9 +529,9 @@ class Reservations_model extends Model
         }
         else{
             $tables = $reservedButNotFull;
-            echo '<pre>';
-            print($tables );
-            echo '</pre>';
+            // echo '<pre>';
+            // print($tables );
+            // echo '</pre>';
         }
 
 

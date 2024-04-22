@@ -433,8 +433,6 @@ class Booking extends BaseComponent
     public function getStartDate()
     {
 
-        date_default_timezone_set('Europe/Paris');
-
 
         if (!is_null($this->startDate))
             return $this->startDate;
@@ -444,14 +442,12 @@ class Booking extends BaseComponent
         $max_hour = $this->getLocation()->getMinReservationAdvanceTimeHour();
         $max_hour_time = strtotime($max_hour);
 
-
-        if ($max_hour_time > strtotime(date('H:i'))) {
-            echo 'true';
-            return $this->startDate = now()->addDays(
+        if ($max_hour_time > strtotime(now()) + 7200 ) {
+            return $this->startDate = now()->addHours(2)->addDays(
                 $this->getLocation()->getMinReservationAdvanceTime()
             )->startOfDay();
         } else {
-            return $this->startDate = now()->addDays(
+            return $this->startDate = now()->addHours(2)->addDays(
                 $this->getLocation()->getMinReservationAdvanceTime() + 1
             )->startOfDay();
         }
@@ -462,7 +458,7 @@ class Booking extends BaseComponent
         if (!is_null($this->endDate))
             return $this->endDate;
 
-        return $this->endDate = now()->addDays(
+        return $this->endDate = now()->addHours(2)->addDays(
             $this->getLocation()->getMaxReservationAdvanceTime()
         )->endOfDay();
     }

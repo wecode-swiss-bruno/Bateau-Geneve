@@ -18,7 +18,7 @@ a particular event multiple times, you will still only receive one entry for tha
      * @return associative_array Event data and metadata
      *     - data array An array of goal data structs for the specified list member in the following format
      *         - event string The URL or name of the event that was triggered
-     *         - last_visited_at string A timestamp in the format 'YYYY-MM-DD HH:MM:SS' that represents the last time this event was seen.
+     *         - last_visited_at string A timestamp in the format 'YYYY-MM-DD HH:mm:SS' that represents the last time this event was seen.
      *     - total int The total number of events that match your criteria.
      */
     public function events($list_id, $email, $start=0, $limit=25) {
@@ -37,7 +37,7 @@ a particular event multiple times, you will still only receive one entry for tha
      * @param string $event
      * @return associative_array Event data for the submitted event
      *     - event string The URL or name of the event that was triggered
-     *     - last_visited_at string A timestamp in the format 'YYYY-MM-DD HH:MM:SS' that represents the last time this event was seen.
+     *     - last_visited_at string A timestamp in the format 'YYYY-MM-DD HH:mm:SS' that represents the last time this event was seen.
      */
     public function recordEvent($list_id, $email, $campaign_id, $event) {
         $_params = array("list_id" => $list_id, "email" => $email, "campaign_id" => $campaign_id, "event" => $event);

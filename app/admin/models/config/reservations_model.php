@@ -216,6 +216,7 @@ $config['form']['tabs'] = [
             'label' => 'lang:admin::lang.reservations.label_reservation_duration',
             'type' => 'number',
             'span' => 'left',
+            'default' => '210',
             'cssClass' => 'flex-width',
             'comment' => 'lang:admin::lang.reservations.help_reservation_duration',
         ],
@@ -259,7 +260,6 @@ $config['form']['tabs'] = [
             'relationFrom' => 'location',
             'nameFrom' => 'location_name',
             'span' => 'left',
-            'placeholder' => 'lang:admin::lang.text_please_select',
         ],
         'notify' => [
             'label' => 'lang:admin::lang.reservations.label_send_confirmation',

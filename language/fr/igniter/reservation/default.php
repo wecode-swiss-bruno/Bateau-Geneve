@@ -71,7 +71,7 @@ return [
         'column_location' => 'Situation',
         'column_date' => 'Heure - Date',
         'column_table' => 'Nom de la table',
-        'column_guest' => 'Numéro d\'invité',
+        'column_guest' => 'Nombre d\'invités',
         'column_occasion' => 'Occasion',
         'column_telephone' => 'Téléphone',
         'column_comment' => 'Commentaire',

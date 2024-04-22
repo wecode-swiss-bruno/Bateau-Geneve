@@ -1,0 +1,4 @@
+/* RESERVATION */
+.datepicker-inline table .day{
+    background: green;
+}

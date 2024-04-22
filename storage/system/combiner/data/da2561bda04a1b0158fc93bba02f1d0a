@@ -1,0 +1,8 @@
+/* RESERVATION */
+.datepicker-inline table .day{
+    background: #9fe096;
+}
+
+.datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled.disabled, .datepicker table tr td.today, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover, .datepicker table tr td.today:hover{
+    background: lightgrey;
+}

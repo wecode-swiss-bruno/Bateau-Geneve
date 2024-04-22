@@ -22,6 +22,10 @@
     {
       "path": "tastyigniter-orange/assets/css/app.css",
       "name": "app-css"
+    },
+    {
+      "path": "tastyigniter-orange/assets/css/custom.css",
+      "name": "custom-css"
     }
   ],
   "script": [
