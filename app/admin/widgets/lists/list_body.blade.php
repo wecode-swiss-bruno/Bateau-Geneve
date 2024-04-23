@@ -38,12 +38,12 @@
             </td>
         @endforeach
 
-        @if ($showFilter)
+        <!-- @if ($showFilter)
             <td class="list-setup">&nbsp;</td>
         @endif
 
         @if ($showSetup)
             <td class="list-setup">&nbsp;</td>
-        @endif
+        @endif -->
     </tr>
 @endforeach

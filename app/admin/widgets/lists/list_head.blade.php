@@ -44,27 +44,5 @@
         @endif
     @endforeach
 
-    @if ($showFilter)
-        <th class="list-setup" data-field="list-action-filters">
-            <button
-                type="button"
-                class="btn btn-outline-default btn-sm border-none"
-                title="@lang('admin::lang.button_filter')"
-                data-toggle="list-filter"
-                data-target=".list-filter"
-            ><i class="fa fa-filter"></i></button>
-        </th>
-    @endif
-    @if ($showSetup)
-        <th class="list-setup" data-field="list-action-show-setup">
-            <button
-                type="button"
-                class="btn btn-outline-default btn-sm border-none"
-                title="@lang('admin::lang.list.text_setup')"
-                data-bs-toggle="modal"
-                data-bs-target="#{{ $listId }}-setup-modal"
-                data-request="{{ $this->getEventHandler('onLoadSetup') }}"
-            ><i class="fa fa-sliders"></i></button>
-        </th>
-    @endif
+ 
 </tr>

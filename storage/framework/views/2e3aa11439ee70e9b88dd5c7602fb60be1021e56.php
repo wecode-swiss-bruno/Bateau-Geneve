@@ -5,7 +5,26 @@
 ]); ?>
 
 
+<?php if($showFilter): ?>
+            <button
+                type="button"
+                class="btn btn-outline-default btn-sm border-none"
+                title="<?php echo app('translator')->get('admin::lang.button_filter'); ?>"
+                data-toggle="list-filter"
+                data-target=".list-filter"
+            ><i class="fa fa-filter">FILTRES</i></button>
 
+    <?php endif; ?>
+    <?php if($showSetup): ?>
+            <button
+                type="button"
+                class="btn btn-outline-default btn-sm border-none"
+                title="<?php echo app('translator')->get('admin::lang.list.text_setup'); ?>"
+                data-bs-toggle="modal"
+                data-bs-target="#<?php echo e($listId); ?>-setup-modal"
+                data-request="<?php echo e($this->getEventHandler('onLoadSetup')); ?>"
+            ><i class="fa fa-sliders"></i></button>
+    <?php endif; ?>
 
 <div
     id="<?php echo e($this->getId()); ?>"

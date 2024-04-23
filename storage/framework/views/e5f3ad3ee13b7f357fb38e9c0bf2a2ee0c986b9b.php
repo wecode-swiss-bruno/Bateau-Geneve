@@ -45,28 +45,6 @@
         <?php endif; ?>
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
-    <?php if($showFilter): ?>
-        <th class="list-setup" data-field="list-action-filters">
-            <button
-                type="button"
-                class="btn btn-outline-default btn-sm border-none"
-                title="<?php echo app('translator')->get('admin::lang.button_filter'); ?>"
-                data-toggle="list-filter"
-                data-target=".list-filter"
-            ><i class="fa fa-filter"></i></button>
-        </th>
-    <?php endif; ?>
-    <?php if($showSetup): ?>
-        <th class="list-setup" data-field="list-action-show-setup">
-            <button
-                type="button"
-                class="btn btn-outline-default btn-sm border-none"
-                title="<?php echo app('translator')->get('admin::lang.list.text_setup'); ?>"
-                data-bs-toggle="modal"
-                data-bs-target="#<?php echo e($listId); ?>-setup-modal"
-                data-request="<?php echo e($this->getEventHandler('onLoadSetup')); ?>"
-            ><i class="fa fa-sliders"></i></button>
-        </th>
-    <?php endif; ?>
+ 
 </tr>
 <?php /**PATH /Applications/MAMP/htdocs/bateau-geneve/app/admin/widgets/lists/list_head.blade.php ENDPATH**/ ?>

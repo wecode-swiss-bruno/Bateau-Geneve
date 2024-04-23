@@ -442,12 +442,12 @@ class Booking extends BaseComponent
         $max_hour = $this->getLocation()->getMinReservationAdvanceTimeHour();
         $max_hour_time = strtotime($max_hour);
 
-        if ($max_hour_time > strtotime(now()) + 7200 ) {
-            return $this->startDate = now()->addHours(2)->addDays(
+        if ($max_hour_time > strtotime(now())) {
+            return $this->startDate = now()->addDays(
                 $this->getLocation()->getMinReservationAdvanceTime()
             )->startOfDay();
         } else {
-            return $this->startDate = now()->addHours(2)->addDays(
+            return $this->startDate = now()->addDays(
                 $this->getLocation()->getMinReservationAdvanceTime() + 1
             )->startOfDay();
         }
@@ -458,7 +458,7 @@ class Booking extends BaseComponent
         if (!is_null($this->endDate))
             return $this->endDate;
 
-        return $this->endDate = now()->addHours(2)->addDays(
+        return $this->endDate = now()->addDays(
             $this->getLocation()->getMaxReservationAdvanceTime()
         )->endOfDay();
     }
