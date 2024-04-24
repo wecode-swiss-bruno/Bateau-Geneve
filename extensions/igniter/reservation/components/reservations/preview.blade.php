@@ -1,3 +1,4 @@
+
 <div class="table-responsive">
     <table class="table table-borderless">
         <tr>
@@ -7,7 +8,7 @@
         <tr>
             <td><b>@lang('igniter.reservation::default.reservations.column_status'):</b></td>
             <td>
-                <span style="color:{{$customerReservation->status_color}};">{{ $customerReservation->status_name }}</span>
+                <span style="color: {{$customerReservation->status_color}};">{{ $customerReservation->status_name }}</span>
             </td>
         </tr>
         <tr>
@@ -49,9 +50,17 @@
         </tr>
     </table>
 </div>
+
+
+
 @if ($__SELF__->showCancelButton())
-    <hr>
-    <div class="mt-3 text-center">
-        @partial($__SELF__.'::cancel_modal')
-    </div>
+<hr>
+<div class="mt-3 text-center">
+    @partial($__SELF__.'::cancel_modal')
+    
+    @if ($customerReservation->reserve_date > now())
+    @partial($__SELF__.'::edit_button')
+    @endif
+
+</div>
 @endif

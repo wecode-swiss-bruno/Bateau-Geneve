@@ -1,4 +1,5 @@
 @if (count($customerReservations))
+
     <div class="table-responsive">
         <table class="table table-borderless">
             <thead>

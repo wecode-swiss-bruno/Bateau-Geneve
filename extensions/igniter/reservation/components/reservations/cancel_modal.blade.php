@@ -21,6 +21,13 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                <input
+                        class="form-control"
+                        name="isEdit"
+                        id="isEdit"
+                        value="0"
+                        hidden
+                    />
                     <textarea
                         class="form-control"
                         name="cancel_reason"

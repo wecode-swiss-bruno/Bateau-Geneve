@@ -103,6 +103,7 @@ return [
 
         'button_reserve' => 'Make Reservation',
         'button_cancel' => 'Cancel Reservation',
+        'button_edit' => 'Edit Reservation',
         'button_back' => 'Back',
         'btn_view' => 'View',
 
