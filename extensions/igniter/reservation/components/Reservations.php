@@ -93,19 +93,17 @@ class Reservations extends \System\Classes\BaseComponent
 
         flash()->success(lang('igniter.reservation::default.reservations.alert_cancel_success'));
 
-        if (Reservations_model::find($validated['isEdit'])){
-            return redirect()->to($this->controller->pageUrl($this->property('newReservationsPage')));
+            if(Reservations_model::find($validated['reservationId']))
+            {
+                return redirect()->to($this->controller->pageUrl($this->property('newReservationsPage')));
 
-        }
-        else{
-            return redirect()->to($this->controller->pageUrl($this->property('reservationsPage')));
+            }
+            else{
+                return redirect()->to($this->controller->pageUrl($this->property('reservationsPage')));
 
-        }
+            }
+
     }
-
-
-
-
 
     protected function getReservation()
     {

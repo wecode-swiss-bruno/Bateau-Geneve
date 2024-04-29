@@ -71,9 +71,9 @@
 </div>
 <div class="form-row">
     <div class="col">
-        {!! form_error('guest', '<div class="alert alert-danger help-block text-danger">', '</div>') !!}
-        {!! form_error('date', '<div class="alert alert-danger help-block text-danger">', '</div>') !!}
-        {!! form_error('time', '<div class="alert alert-danger help-block text-danger">', '</div>') !!}
+        {!! form_error('guest', '<span class="help-block text-danger">', '</span>') !!}
+        {!! form_error('date', '<span class="help-block text-danger">', '</span>') !!}
+        {!! form_error('time', '<span class="help-block text-danger">', '</span>') !!}
     </div>
 </div>
 

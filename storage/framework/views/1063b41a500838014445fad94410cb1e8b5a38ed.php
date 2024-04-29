@@ -40,13 +40,13 @@
             </td>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
-        <!-- <?php if($showFilter): ?>
+        <?php if($showFilter): ?>
             <td class="list-setup">&nbsp;</td>
         <?php endif; ?>
 
         <?php if($showSetup): ?>
             <td class="list-setup">&nbsp;</td>
-        <?php endif; ?> -->
+        <?php endif; ?>
     </tr>
 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 <?php /**PATH /Users/vladtemneanu/Library/CloudStorage/SynologyDrive-Wecode/WECODE-SHARE/_COLLABORATEURS/VLAD/LOCAL DEV/Bateau-Geneve/app/admin/widgets/lists/list_body.blade.php ENDPATH**/ ?>

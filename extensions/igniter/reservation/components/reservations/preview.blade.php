@@ -8,7 +8,7 @@
         <tr>
             <td><b>@lang('igniter.reservation::default.reservations.column_status'):</b></td>
             <td>
-                <span style="color: {{$customerReservation->status_color}};">{{ $customerReservation->status_name }}</span>
+                <span style="color: {{ $customerReservation->status_color }};">{{ $customerReservation->status_name }}</span>
             </td>
         </tr>
         <tr>

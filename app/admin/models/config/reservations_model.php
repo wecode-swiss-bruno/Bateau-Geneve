@@ -271,10 +271,21 @@ $config['form']['tabs'] = [
             'type' => 'text',
             'span' => 'right',
         ],
+        'customer_id' => [
+            'label' => 'Utilisateur',
+            'type' => 'relation',
+            'relationFrom' => 'customer',
+                    'placeholder' => 'lang:admin::lang.text_please_select',
+
+            'nameFrom' => 'email',
+            'span' => 'left'
+
+        ],
         'location_id' => [
             'label' => 'lang:admin::lang.reservations.text_tab_restaurant',
             'type' => 'relation',
             'relationFrom' => 'location',
+            
             'nameFrom' => 'location_name',
             'span' => 'left',
         ],

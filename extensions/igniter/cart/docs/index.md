@@ -67,7 +67,7 @@ title: 'Checkout'
 permalink: /checkout
 
 '[cartBox]':
-    cartBoxTimeFormat: 'ddd HH:mm a'
+    cartBoxTimeFormat: 'ddd hh:mm a'
     checkStockCheckout: 0
     pageIsCheckout: 0
     pageIsCart: 0

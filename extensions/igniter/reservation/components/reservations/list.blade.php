@@ -1,5 +1,4 @@
 @if (count($customerReservations))
-
     <div class="table-responsive">
         <table class="table table-borderless">
             <thead>
@@ -16,7 +15,7 @@
             @foreach ($customerReservations as $reservation)
                 <tr>
                     <td>{{ $reservation->location ? $reservation->location->location_name : null }}</td>
-                    <td><b>{{ $reservation->status->status_name }}</b></td>
+                    <td style="color: {{ $reservation->status_color }};"><b>{{ $reservation->status->status_name }}</b></td>
                     <td>{{ $reservation->reserve_date->setTimeFromTimeString($reservation->reserve_time)->isoFormat($reservationDateTimeFormat) }}</td>
                     <td>{{ $reservation->table_name }}</td>
                     <td>{{ $reservation->guest_num }}</td>

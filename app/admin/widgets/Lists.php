@@ -183,14 +183,20 @@ class Lists extends BaseWidget
 
     public function loadAssets()
     {
+        $this->addCss('bootstrap-table/bootstrap-table.css', 'bootstrap-table-css');
+
+        $this->addJs('https://code.jquery.com/jquery-3.7.1.min.js', 'jquery');
+
         $this->addJs('../../../formwidgets/repeater/assets/vendor/sortablejs/Sortable.min.js', 'sortable-js');
         $this->addJs('../../../formwidgets/repeater/assets/vendor/sortablejs/jquery-sortable.js', 'jquery-sortable-js');
         $this->addJs('bootstrap-table/bootstrap-table.js', 'bootstrap-table-js');
         $this->addJs('bootstrap-table/extensions/print/bootstrap-table-print.js', 'bootstrap-table-print-js');
+        $this->addJs('bootstrap-table/locale/bootstrap-table-fr-FR.js', 'bootstrap-table-locale-js');
+        // $this->addJs('bootstrap-table/locale/bootstrap-table-en-EN.js', 'bootstrap-table-locale-js');
+
+
         $this->addJs('js/lists.js', 'lists-js');
 
-        $this->addCss('bootstrap-table/bootstrap-table.css', 'bootstrap-table-css');
-        $this->addJs('bootstrap-table/locale/bootstrap-table-fr-FR.js', 'bootstrap-table-locale-css');
     }
 
     public function render()

@@ -2,11 +2,11 @@
     class="list-header"
 >
     <?php if($showDragHandle): ?>
-        <th class="list-action" data-field="list-action-drag-handle"></th>
+        <th class="list-action"></th>
     <?php endif; ?>
 
     <?php if($showCheckboxes): ?>
-        <th class="list-action text-nowrap" data-field="list-action-checkboxes">
+        <th class="list-action text-nowrap">
             <div class="form-check">
                 <input
                     type="checkbox" id="<?php echo e('checkboxAll-'.$listId); ?>"
@@ -18,10 +18,9 @@
 
     <?php $__currentLoopData = $columns; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $column): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
         <?php if($column->type == 'button'): ?>
-            <th class="list-action <?php echo e($column->cssClass); ?> text-nowrap"  data-field="<?php echo e($column->cssClass); ?>asfdadsf" data-field="<?php echo e($column->cssClass); ?>2345235"></th>
+            <th class="list-action <?php echo e($column->cssClass); ?> text-nowrap"></th>
         <?php elseif($showSorting && $column->sortable): ?>
             <th
-            data-field="<?php echo e($column->getName()); ?>"
                 class="list-cell-name-<?php echo e($column->getName()); ?> list-cell-type-<?php echo e($column->type); ?> <?php echo e($column->cssClass); ?> text-nowrap"
                 <?php if($column->width): ?> style="width: <?php echo e($column->width); ?>" <?php endif; ?>>
                 <a
@@ -37,7 +36,6 @@
         <?php else: ?>
             <th
                 class="list-cell-name-<?php echo e($column->getName()); ?> list-cell-type-<?php echo e($column->type); ?> text-nowrap"
-                data-field="<?php echo e($column->getName()); ?>"
                 <?php if($column->width): ?> style="width: <?php echo e($column->width); ?>" <?php endif; ?>
             >
                 <span><?php echo e($this->getHeaderValue($column)); ?></span>
@@ -45,6 +43,28 @@
         <?php endif; ?>
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
- 
+    <?php if($showFilter): ?>
+        <th class="list-setup">
+            <button
+                type="button"
+                class="btn btn-outline-default btn-sm border-none"
+                title="<?php echo app('translator')->get('admin::lang.button_filter'); ?>"
+                data-toggle="list-filter"
+                data-target=".list-filter"
+            ><i class="fa fa-filter"></i></button>
+        </th>
+    <?php endif; ?>
+    <?php if($showSetup): ?>
+        <th class="list-setup">
+            <button
+                type="button"
+                class="btn btn-outline-default btn-sm border-none"
+                title="<?php echo app('translator')->get('admin::lang.list.text_setup'); ?>"
+                data-bs-toggle="modal"
+                data-bs-target="#<?php echo e($listId); ?>-setup-modal"
+                data-request="<?php echo e($this->getEventHandler('onLoadSetup')); ?>"
+            ><i class="fa fa-sliders"></i></button>
+        </th>
+    <?php endif; ?>
 </tr>
 <?php /**PATH /Users/vladtemneanu/Library/CloudStorage/SynologyDrive-Wecode/WECODE-SHARE/_COLLABORATEURS/VLAD/LOCAL DEV/Bateau-Geneve/app/admin/widgets/lists/list_head.blade.php ENDPATH**/ ?>

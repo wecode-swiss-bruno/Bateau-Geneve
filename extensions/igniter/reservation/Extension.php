@@ -123,18 +123,6 @@ class Extension extends \System\Classes\BaseExtension
                         'condition' => 'checked',
                     ],
                 ],
-                'reservations_finish_end_of_day' => [
-                    'label' => 'lang:igniter.reservation::default.label_reservation_finish_end_of_day',
-                    'accordion' => 'lang:igniter.reservation::default.text_tab_reservation',
-                    'default' => 1,
-                    'type' => 'switch',
-                    'span' => 'right',
-                    'trigger' => [
-                        'action' => 'enable',
-                        'field' => 'offer_reservation',
-                        'condition' => 'checked',
-                    ],
-                ],
                 'reservation_time_interval' => [
                     'label' => 'lang:igniter.reservation::default.label_reservation_time_interval',
                     'accordion' => 'lang:igniter.reservation::default.text_tab_reservation',
@@ -168,19 +156,6 @@ class Extension extends \System\Classes\BaseExtension
                     'type' => 'number',
                     'span' => 'left',
                     'comment' => 'lang:igniter.reservation::default.help_min_reservation_advance_time',
-                    'trigger' => [
-                        'action' => 'enable',
-                        'field' => 'offer_reservation',
-                        'condition' => 'checked',
-                    ],
-                ],
-                'min_reservation_advance_time_hour' => [
-                    'label' => 'lang:igniter.reservation::default.label_min_reservation_advance_time_hour',
-                    'accordion' => 'lang:igniter.reservation::default.text_tab_reservation',
-                    'type' => 'datepicker',
-                    'mode' => 'time',
-                    'span' => 'left',
-                    'comment' => 'lang:igniter.reservation::default.help_min_reservation_advance_time_hour',
                     'trigger' => [
                         'action' => 'enable',
                         'field' => 'offer_reservation',
