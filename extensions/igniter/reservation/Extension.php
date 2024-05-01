@@ -69,7 +69,7 @@ class Extension extends \System\Classes\BaseExtension
 
         Event::listen('igniter.reservation.confirmed', function (Reservations_model $model) {
             ActivityTypes\ReservationCreated::log($model);
-
+        
             $model->mailSend('igniter.reservation::mail.reservation', 'customer');
             $model->mailSend('igniter.reservation::mail.reservation_alert', 'location');
             $model->mailSend('igniter.reservation::mail.reservation_alert', 'admin');

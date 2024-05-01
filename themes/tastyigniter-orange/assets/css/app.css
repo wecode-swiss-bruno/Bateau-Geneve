@@ -294,20 +294,6 @@ button, [type="button"], [type="reset"], [type="submit"] {
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
   cursor: pointer;
 }
-
-a[reservation-btn] {
-  background-color: rgb(0, 157, 226);
-  color: #fff !important;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-left: 20px;
-}
-
-a[reservation-btn]:hover {
-  background-color: rgb(233, 77, 51);
-}
-
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;
@@ -16758,7 +16744,6 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 }
 .navbar-top .navbar-brand .img-logo {
   height: 65px;
-  padding-bottom: 5px;
 }
 .navbar-top .navbar-brand .text-logo {
   line-height: 65px;
@@ -16766,6 +16751,19 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 .navbar-top .navbar-nav .nav-link, .navbar-top .navbar-nav .nav .navbar > li > a, .nav .navbar-top .navbar-nav .navbar > li > a {
   color: #ff4900;
 }
+
+a[reservation-btn] {
+  background-color: rgb(0, 157, 226);
+  border-radius: 0.5rem;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a[reservation-btn]:hover {
+  background-color: rgb(233, 77, 51);
+}
+
 .navbar-top .navbar-nav .nav-link.active, .navbar-top .navbar-nav .nav .navbar > li > a.active, .nav .navbar-top .navbar-nav .navbar > li > a.active {
   font-weight: 600;
 }
@@ -16993,7 +16991,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 .footer {
   width: 100%;
   color: #ffffff;
-  background-color: #64544d;
+  background-color: #e94d33;
 }
 .footer a {
   color: #ffffff;
