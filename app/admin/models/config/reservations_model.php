@@ -52,7 +52,6 @@ $config['list']['toolbar'] = [
             'href' => 'reservations/calendar',
             'context' => 'index',
         ],
-
     ],
 ];
 
@@ -155,22 +154,6 @@ $config['calendar']['toolbar'] = [
     ],
 ];
 
-$config['printList']['toolbar'] = [
-    'buttons' => [
-        'create' => [
-            'label' => 'lang:admin::lang.button_new',
-            'class' => 'btn btn-primary',
-            'href' => 'reservations/create',
-        ],
-        'list' => [
-            'label' => 'lang:admin::lang.text_switch_to_list',
-            'class' => 'btn btn-default',
-            'href' => 'reservations',
-            'context' => 'printList',
-        ],
-    ],
-];
-
 $config['form']['toolbar'] = [
     'buttons' => [
         'back' => [
@@ -233,7 +216,6 @@ $config['form']['tabs'] = [
             'label' => 'lang:admin::lang.reservations.label_reservation_duration',
             'type' => 'number',
             'span' => 'left',
-            'default' => '210',
             'cssClass' => 'flex-width',
             'comment' => 'lang:admin::lang.reservations.help_reservation_duration',
         ],
@@ -271,23 +253,13 @@ $config['form']['tabs'] = [
             'type' => 'text',
             'span' => 'right',
         ],
-        'customer_id' => [
-            'label' => 'Utilisateur',
-            'type' => 'relation',
-            'relationFrom' => 'customer',
-                    'placeholder' => 'lang:admin::lang.text_please_select',
-
-            'nameFrom' => 'email',
-            'span' => 'left'
-
-        ],
         'location_id' => [
             'label' => 'lang:admin::lang.reservations.text_tab_restaurant',
             'type' => 'relation',
             'relationFrom' => 'location',
-            
             'nameFrom' => 'location_name',
             'span' => 'left',
+            'placeholder' => 'lang:admin::lang.text_please_select',
         ],
         'notify' => [
             'label' => 'lang:admin::lang.reservations.label_send_confirmation',

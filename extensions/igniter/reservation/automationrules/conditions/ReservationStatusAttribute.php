@@ -42,11 +42,16 @@ class ReservationStatusAttribute extends BaseModelAttributesCondition
      */
     public function isTrue(&$params)
     {
+        // TO PUSH TO TASTYIGNITER
         $status = array_get($params, 'status');
-        if (!$status instanceof Statuses_model) {
+
+        $Status = new Statuses_model();
+        $Status->fill($status);
+
+        if (!$Status instanceof Statuses_model) {
             throw new ApplicationException('Error evaluating the status attribute condition: the status object is not found in the condition parameters.');
         }
 
-        return $this->evalIsTrue($status);
+        return $this->evalIsTrue($Status);
     }
 }

@@ -39,7 +39,7 @@ class BaseModelAttributesCondition extends BaseCondition
             $value = array_get($subCondition, 'value');
 
             $result = $this->getConditionAttributePrefix($attribute, $attributes);
-            $result .= ' <b>'.array_get($this->operators, $operator, $operator).'</b> ';
+            $result .= ' <b>' . array_get($this->operators, $operator, $operator) . '</b> ';
             $result .= $value;
 
             return $result;
@@ -81,10 +81,11 @@ class BaseModelAttributesCondition extends BaseCondition
 
         collect($subConditions)->sortBy('priority')->each(function ($subCondition) use (&$success, $modelToEval, $attributes) {
             $attribute = array_get($subCondition, 'attribute');
-            $attributeType = array_get($attributes, $attribute.'.type');
+            $attributeType = array_get($attributes, $attribute . '.type');
 
             if ($attributeType == 'string')
                 $success = $this->evalAttributeStringType($modelToEval, $subCondition);
+
 
             if ($attributeType == 'custom')
                 $success = $this->evalAttributeCustomType($modelToEval, $subCondition);
@@ -121,8 +122,10 @@ class BaseModelAttributesCondition extends BaseCondition
         $conditionValue = is_array($conditionValue) ? $conditionValue : mb_strtolower(trim($conditionValue));
         $modelValue = $this->getModelEvalAttribute($model, $attribute, $subCondition);
 
+
         if ($operator === 'is')
-            return $modelValue == $conditionValue;
+        // print('working!!!!!');
+        return $modelValue == $conditionValue;
 
         if ($operator === 'is_not')
             return $modelValue != $conditionValue;
@@ -157,9 +160,10 @@ class BaseModelAttributesCondition extends BaseCondition
     protected function getModelEvalAttribute($model, $attribute, $condition = [])
     {
         $value = $model->{$attribute};
+        // print_r('model:' . $model);
 
-        if (method_exists($this, 'get'.Str::studly($attribute).'Attribute'))
-            $value = $this->{'get'.Str::studly($attribute).'Attribute'}($value, $model, $condition);
+        if (method_exists($this, 'get' . Str::studly($attribute) . 'Attribute'))
+            $value = $this->{'get' . Str::studly($attribute) . 'Attribute'}($value, $model, $condition);
 
         return mb_strtolower(trim($value));
     }
@@ -177,13 +181,13 @@ class BaseModelAttributesCondition extends BaseCondition
 
     protected function getDateRangeFrom(array $options)
     {
-        if (array_get($options, 'when') === 'is_current'){
+        if (array_get($options, 'when') === 'is_current') {
             return now()->startOf(array_get($options, 'current', 'day'))->toDateTimeString();
         }
 
-        if (array_get($options, 'when') === 'is_past'){
+        if (array_get($options, 'when') === 'is_past') {
             return now()
-                ->parse('- '.str_replace('_', ' ', array_get($options, 'range', '1_day')))
+                ->parse('- ' . str_replace('_', ' ', array_get($options, 'range', '1_day')))
                 ->startOfDay()
                 ->toDateTimeString();
         }
@@ -193,11 +197,11 @@ class BaseModelAttributesCondition extends BaseCondition
 
     protected function getDateRangeTo(array $options)
     {
-        if (array_get($options, 'when') === 'is_current'){
+        if (array_get($options, 'when') === 'is_current') {
             return now()->endOf(array_get($options, 'current', 'day'))->toDateTimeString();
         }
 
-        if (array_get($options, 'when') === 'is_past'){
+        if (array_get($options, 'when') === 'is_past') {
             return now()->endOfDay()->toDateTimeString();
         }
 

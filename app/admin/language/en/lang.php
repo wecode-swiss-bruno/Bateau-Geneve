@@ -233,13 +233,6 @@ return [
         'missing_partial' => "Calender action  defined in '%s' is missing a popover partial.",
     ],
 
-    'printList' => [
-        'missing_model' => 'printList action used in %s does not have a model defined.',
-        'missing_definitions' => 'printList action used in %s does not have model definitions.',
-        'missing_method' => "Calender action '%s' does not contain a method '%s'.",
-        'missing_partial' => "Calender action  defined in '%s' is missing a popover partial.",
-    ],
-
     'form' => [
         'create_title' => ':name: Create',
         'edit_title' => ':name: Edit',

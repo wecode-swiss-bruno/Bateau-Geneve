@@ -23,7 +23,7 @@
     </p>
     <p>
         <b>@lang('admin::lang.reservations.label_reservation_time'):</b>
-        @{{reserve_time}}
+        @{{reserve_time}} - @{{reserve_end_time}}
     </p>
     <p>
         <b>@lang('admin::lang.reservations.label_customer_name'):</b>
@@ -33,6 +33,4 @@
         <b>@lang('admin::lang.label_email'):</b>
         @{{email}}
     </p>
-
-    <a href="{{ admin_url('reservations/edit') }}/@{{id}}">Editer</a>
 </div>

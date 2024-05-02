@@ -84,6 +84,7 @@ class Extension extends BaseExtension
             EventManager::fireReservationScheduleEvents();
         })->name('automation-reservation-schedule')->withoutOverlapping(5)->runInBackground()->hourly();
 
+
         $schedule->command('automation:cleanup')->name('Automation Log Cleanup')->daily();
     }
 

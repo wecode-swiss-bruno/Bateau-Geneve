@@ -14,7 +14,6 @@ class Reservations extends \Admin\Classes\AdminController
     public $implement = [
         'Admin\Actions\ListController',
         'Admin\Actions\CalendarController',
-        'Admin\Actions\PrintListController',
         'Admin\Actions\FormController',
         'Admin\Actions\AssigneeController',
         'Admin\Actions\LocationAwareController',
@@ -35,15 +34,6 @@ class Reservations extends \Admin\Classes\AdminController
             'title' => 'lang:admin::lang.reservations.text_title',
             'emptyMessage' => 'lang:admin::lang.reservations.text_no_booking',
             'popoverPartial' => 'reservations/calendar_popover',
-            'configFile' => 'reservations_model',
-        ],
-    ];
-
-    public $printListConfig = [
-        'printList' => [
-            'title' => 'lang:admin::lang.reservations.text_title',
-            'emptyMessage' => 'lang:admin::lang.reservations.text_no_booking',
-            'popoverPartial' => 'reservations/printList',
             'configFile' => 'reservations_model',
         ],
     ];
@@ -117,12 +107,12 @@ class Reservations extends \Admin\Classes\AdminController
         return $this->redirectBack();
     }
 
-    public function edit_onDelete($context, $recordId)
+    public function edit_onDelete()
     {
         if (!$this->getUser()->hasPermission('Admin.DeleteReservations'))
             throw new ApplicationException(lang('admin::lang.alert_user_restricted'));
 
-        return $this->asExtension('Admin\Actions\FormController')->edit_onDelete($context, $recordId);
+        return $this->asExtension('Admin\Actions\FormController')->edit_onDelete();
     }
 
     public function calendarGenerateEvents($startAt, $endAt)

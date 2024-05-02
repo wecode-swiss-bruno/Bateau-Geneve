@@ -79,8 +79,6 @@ return [
         'button_copy' => 'Copy',
         'button_delete' => 'Delete',
         'button_cancel' => 'Cancel',
-        'button_edit' => 'Edit',
-
 
         'label_name' => 'Name',
         'label_date' => 'Date',

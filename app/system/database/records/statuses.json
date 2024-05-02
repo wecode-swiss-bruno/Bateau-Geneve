@@ -53,7 +53,7 @@
     "status_comment": "Your table reservation is pending.",
     "notify_customer": 0,
     "status_for": "reserve",
-    "status_color": "#dd4b38"
+    "status_color": ""
   },
   {
     "status_name": "Canceled",

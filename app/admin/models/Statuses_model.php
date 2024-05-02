@@ -19,6 +19,8 @@ class Statuses_model extends Model
      */
     protected $primaryKey = 'status_id';
 
+    protected $fillable = ["status_id", "status_name"];
+
     protected $casts = [
         'notify_customer' => 'boolean',
     ];
