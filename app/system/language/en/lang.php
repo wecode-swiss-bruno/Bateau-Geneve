@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'system_name' => 'TastyIgniter',
-    'system_powered' => '<a target="_blank" href="http://tastyigniter.com">Powered by TastyIgniter</a>',
-    'copyright' => 'Thank you for using <a target="_blank" href="http://tastyigniter.com">TastyIgniter</a>',
+    'system_name' => 'Bateau Geneve',
+    'system_powered' => '<a target="_blank" href="https://wecode.swiss/">Developed by Wecode</a>',
+    'copyright' => 'Thank you for using <a target="_blank" href="http://tastyigniter.com">Bateau Geneve</a>',
     'version' => '<b>Version:</b> %s',
 
     'no_database' => [
