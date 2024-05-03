@@ -324,4 +324,13 @@ class Locations_model extends AbstractLocation
 
         return self::$defaultLocation = $defaultLocation;
     }
+
+    /**
+     * ADD function to get hour of the day before last reservation for the same day
+        * @return string
+     */
+    public function getMinReservationAdvanceTimeHour() 
+    {
+        return (string)$this->getOption('min_reservation_advance_time_hour', 2);
+    }
 }
