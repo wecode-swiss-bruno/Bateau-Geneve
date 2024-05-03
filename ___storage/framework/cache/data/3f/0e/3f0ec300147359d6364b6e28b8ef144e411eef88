@@ -1,0 +1,28 @@
+1714662377a:1:{s:14:"home.blade.php";a:11:{s:8:"fileName";s:14:"home.blade.php";s:5:"mTime";i:1713886969;s:7:"content";s:561:"---
+title: 'main::lang.home.title'
+permalink: /
+description: ''
+layout: default
+'[slider]':
+    code: home-slider
+'[booking]':
+    useCalendarView: 1
+    weekStartOn: 1.0
+    minGuestSize: 2.0
+    maxGuestSize: 20.0
+    timeSlotsInterval: 30.0
+    showLocationThumb: 0
+    telephoneIsRequired: 1
+    locationThumbWidth: 95.0
+    locationThumbHeight: 80.0
+    bookingPage: reservation/reservation
+    defaultLocationParam: local
+    successPage: reservation/success
+    localNotFoundPage: reservation/reservation
+---
+@component('slider')
+
+@component('booking')";s:6:"markup";s:46:"
+@component('slider')
+
+@component('booking')";s:4:"code";N;s:5:"title";s:21:"main::lang.home.title";s:9:"permalink";s:1:"/";s:11:"description";s:0:"";s:6:"layout";s:7:"default";s:8:"[slider]";a:1:{s:4:"code";s:11:"home-slider";}s:9:"[booking]";a:13:{s:15:"useCalendarView";i:1;s:11:"weekStartOn";d:1;s:12:"minGuestSize";d:2;s:12:"maxGuestSize";d:20;s:17:"timeSlotsInterval";d:30;s:17:"showLocationThumb";i:0;s:19:"telephoneIsRequired";i:1;s:18:"locationThumbWidth";d:95;s:19:"locationThumbHeight";d:80;s:11:"bookingPage";s:23:"reservation/reservation";s:20:"defaultLocationParam";s:5:"local";s:11:"successPage";s:19:"reservation/success";s:17:"localNotFoundPage";s:23:"reservation/reservation";}}}

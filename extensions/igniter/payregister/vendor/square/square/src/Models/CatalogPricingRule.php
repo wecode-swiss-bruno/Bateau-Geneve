@@ -363,7 +363,7 @@ class CatalogPricingRule implements \JsonSerializable
      * Returns Valid From Local Time.
      * Represents the local time the pricing rule should be valid from. Represented in RFC 3339 partial-
      * time format
-     * (HH:MM:SS). Partial seconds will be truncated.
+     * (HH:mm:SS). Partial seconds will be truncated.
      */
     public function getValidFromLocalTime(): ?string
     {
@@ -377,7 +377,7 @@ class CatalogPricingRule implements \JsonSerializable
      * Sets Valid From Local Time.
      * Represents the local time the pricing rule should be valid from. Represented in RFC 3339 partial-
      * time format
-     * (HH:MM:SS). Partial seconds will be truncated.
+     * (HH:mm:SS). Partial seconds will be truncated.
      *
      * @maps valid_from_local_time
      */
@@ -390,7 +390,7 @@ class CatalogPricingRule implements \JsonSerializable
      * Unsets Valid From Local Time.
      * Represents the local time the pricing rule should be valid from. Represented in RFC 3339 partial-
      * time format
-     * (HH:MM:SS). Partial seconds will be truncated.
+     * (HH:mm:SS). Partial seconds will be truncated.
      */
     public function unsetValidFromLocalTime(): void
     {
@@ -436,7 +436,7 @@ class CatalogPricingRule implements \JsonSerializable
      * Returns Valid Until Local Time.
      * Represents the local time the pricing rule should be valid until. Represented in RFC 3339 partial-
      * time format
-     * (HH:MM:SS). Partial seconds will be truncated.
+     * (HH:mm:SS). Partial seconds will be truncated.
      */
     public function getValidUntilLocalTime(): ?string
     {
@@ -450,7 +450,7 @@ class CatalogPricingRule implements \JsonSerializable
      * Sets Valid Until Local Time.
      * Represents the local time the pricing rule should be valid until. Represented in RFC 3339 partial-
      * time format
-     * (HH:MM:SS). Partial seconds will be truncated.
+     * (HH:mm:SS). Partial seconds will be truncated.
      *
      * @maps valid_until_local_time
      */
@@ -463,7 +463,7 @@ class CatalogPricingRule implements \JsonSerializable
      * Unsets Valid Until Local Time.
      * Represents the local time the pricing rule should be valid until. Represented in RFC 3339 partial-
      * time format
-     * (HH:MM:SS). Partial seconds will be truncated.
+     * (HH:mm:SS). Partial seconds will be truncated.
      */
     public function unsetValidUntilLocalTime(): void
     {

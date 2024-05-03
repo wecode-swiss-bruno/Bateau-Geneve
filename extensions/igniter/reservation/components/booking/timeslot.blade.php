@@ -28,7 +28,7 @@
 
 <div class="form-row">
     <div class="col">
-        {!! form_error('sdateTime', '<span class="help-block text-danger">', '</span>') !!}
+        {!! form_error('sdateTime', '<span class="help-block text-danger alert alert-danger">', '</span>') !!}
     </div>
 </div>
 

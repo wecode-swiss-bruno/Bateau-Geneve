@@ -28,7 +28,7 @@
 
             @if (has_component('newsletter'))
                 <div class="col-sm-3 mt-3 mt-sm-0">
-                    <div id="newsletter-box">
+                    <div id="newsletter-box" style="display: none">
                         <h5 class="mb-4">@lang('igniter.frontend::default.newsletter.text_subscribe')</h5>
                         @component('newsletter')
                     </div>

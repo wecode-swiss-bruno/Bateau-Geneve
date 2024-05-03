@@ -1,11 +1,11 @@
-[2024-05-02 16:59:12] local.DEBUG: Message-ID: <6590ff0561b1d38ae0dd2e0ca4f8c907@swift.generated>
-Date: Thu, 02 May 2024 16:59:12 +0200
-Subject: TastyIgniter reservation confirmation - 125
+[2024-05-03 14:15:19] local.DEBUG: Message-ID: <67be6efe2d676d4f8a0b2fb982f86374@swift.generated>
+Date: Fri, 03 May 2024 14:15:19 +0200
+Subject: Bateau Geneve reservation reminder - 140
 From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Test1 Test1 <test1@test1.com>
+To: test1 test1 <v.temneanu@wecode.swiss>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="_=_swift_1714661952_acfd2aa62097f6496ff32381104f1811_=_"
+ boundary="_=_swift_1714738519_6896785f7aafb67970c89e2a251ed621_=_"
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -312,8 +312,8 @@ img {
     <td class="header">
                 <span>
             <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
+                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
                     >
         </span>
             </td>
@@ -323,10 +323,11 @@ img {
                             <!-- Body content -->
                             <tr>
                                 <td class="content-cell">
-                                    <p>Hi Test1 Test1,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>125</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:00 pm.</p>
-<p>Thanks for reserving with us online!</p>
+                                    <p>Hi test1 test1,</p>
+<h2>Friendly Reminder: Your Reservation Tomorrow</h2>
+<p>Your reservation at Bateau Geneve is scheduled for tomorrow, Saturday, 4th May 2024 at 19:00.</p>
+<p>We look forward to welcoming you tomorrow!</p>
+<p>Thanks for choosing us!</p>
 
                                 </td>
                             </tr>
@@ -338,7 +339,7 @@ img {
         <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
                 </td>
             </tr>
         </table>
@@ -353,21 +354,23 @@ img {
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: quoted-printable
 
-Hi Test1 Test1,
+Hi test1 test1,
 
-Thank you for your reservation!
+Friendly Reminder: Your Reservation Tomorrow
 
-Your reservation 125 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:00 pm.
+Your reservation at Bateau Geneve is scheduled for tomorrow, Saturday, 4th May 2024 at 19:00.
 
-Thanks for reserving with us online!  
-[2024-05-02 16:59:12] local.DEBUG: Message-ID: <7ab249a083b9d07cc33130213ffcd025@swift.generated>
-Date: Thu, 02 May 2024 16:59:12 +0200
-Subject: TastyIgniter reservation confirmation - 127
+We look forward to welcoming you tomorrow!
+
+Thanks for choosing us!  
+[2024-05-03 14:19:43] local.DEBUG: Message-ID: <d0d801cd7e47e6bc1debdcdaae473027@localhost>
+Date: Fri, 03 May 2024 14:19:43 +0200
+Subject: Bateau Geneve reservation confirmation - 142
 From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Test3 Test3 <Test3@Test3.com>
+To: sdagf uyfuyf <v.temneanu@wecode.swiss>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="_=_swift_1714661952_bac677a2936606d8cd4dac2a6d304fff_=_"
+ boundary="_=_swift_1714738783_a1e313ad8bb6e23437dde5d243ddc48b_=_"
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -674,8 +677,8 @@ img {
     <td class="header">
                 <span>
             <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
                     >
         </span>
             </td>
@@ -685,9 +688,9 @@ img {
                             <!-- Body content -->
                             <tr>
                                 <td class="content-cell">
-                                    <p>Hi Test3 Test3,</p>
+                                    <p>Hi sdagf uyfuyf,</p>
 <h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>127</strong> at Bateau Geneve has been booked for 4 person(s) on Saturday, 4th May 2024 at 05:00 pm.</p>
+<p>Your reservation <strong>142</strong> at Bateau Geneve has been booked for 12 person(s) on Saturday, 4th May 2024 at 17:00.</p>
 <p>Thanks for reserving with us online!</p>
 
                                 </td>
@@ -700,7 +703,7 @@ img {
         <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
                 </td>
             </tr>
         </table>
@@ -715,21 +718,20 @@ img {
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: quoted-printable
 
-Hi Test3 Test3,
+Hi sdagf uyfuyf,
 
 Thank you for your reservation!
 
-Your reservation 127 at Bateau Geneve has been booked for 4 person(s) on Saturday, 4th May 2024 at 05:00 pm.
+Your reservation 142 at Bateau Geneve has been booked for 12 person(s) on Saturday, 4th May 2024 at 17:00.
 
 Thanks for reserving with us online!  
-[2024-05-02 16:59:12] local.DEBUG: Message-ID: <416d7672647dcd84d2143199cd76de7e@swift.generated>
-Date: Thu, 02 May 2024 16:59:12 +0200
-Subject: TastyIgniter reservation confirmation - 128
+[2024-05-03 14:19:43] local.DEBUG: Message-ID: <9ca38de3cad01f32d46d999c5fe9c335@localhost>
+Date: Fri, 03 May 2024 14:19:43 +0200
+Subject: New reservation on Bateau Geneve
 From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="_=_swift_1714661952_a38bcad88168c07d8524664a6b41f95b_=_"
+ boundary="_=_swift_1714738783_f09102bd97c18c4ad9f394546dfc3ddb_=_"
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -1036,8 +1038,8 @@ img {
     <td class="header">
                 <span>
             <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
                     >
         </span>
             </td>
@@ -1047,10 +1049,41 @@ img {
                             <!-- Body content -->
                             <tr>
                                 <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>128</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
+                                    <h2>You received a table reservation from Bateau Geneve.</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Customer name</strong></td>
+<td>sdagf uyfuyf</td>
+</tr>
+<tr>
+<td><strong>Reservation no</strong></td>
+<td>142</td>
+</tr>
+<tr>
+<td><strong>Restaurant</strong></td>
+<td>Bateau Geneve</td>
+</tr>
+<tr>
+<td><strong>No of guest(s)</strong></td>
+<td>12 person(s)</td>
+</tr>
+<tr>
+<td><strong>Reservation date</strong></td>
+<td>Saturday, 4th May 2024</td>
+</tr>
+<tr>
+<td><strong>Reservation time</strong></td>
+<td>17:00</td>
+</tr>
+</tbody>
+</table>
 
                                 </td>
                             </tr>
@@ -1062,7 +1095,7 @@ img {
         <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
                 </td>
             </tr>
         </table>
@@ -1077,21 +1110,23 @@ img {
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: quoted-printable
 
-Hi Vlad Testaa,
+You received a table reservation from Bateau Geneve.
 
-Thank you for your reservation!
-
-Your reservation 128 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:12] local.DEBUG: Message-ID: <e7e298a7df9e2f9ed24be6e3c55a416b@swift.generated>
-Date: Thu, 02 May 2024 16:59:12 +0200
-Subject: TastyIgniter reservation confirmation - 129
+Customer name: sdagf uyfuyf
+Reservation no: 142
+Restaurant: Bateau Geneve
+No of guest(s): 12 person(s)
+Reservation date: Saturday, 4th May 2024
+Reservation time: 17:00  
+[2024-05-03 14:19:43] local.DEBUG: Message-ID: <0e24e1233df04e37a61d5db6e514196d@localhost>
+Date: Fri, 03 May 2024 14:19:43 +0200
+Subject: New reservation on Bateau Geneve
 From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
+Reply-To: sdagf uyfuyf <v.temneanu@wecode.swiss>
+To: Bateau Geneve <bateau.geneve@swiss.com>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="_=_swift_1714661952_d9dcf72018cde6428dc4c9ff24fb3af2_=_"
+ boundary="_=_swift_1714738783_4ae6af363a20b3eab8cb6d3a7b74e4d3_=_"
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -1398,8 +1433,8 @@ img {
     <td class="header">
                 <span>
             <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
                     >
         </span>
             </td>
@@ -1409,10 +1444,41 @@ img {
                             <!-- Body content -->
                             <tr>
                                 <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>129</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
+                                    <h2>You received a table reservation from Bateau Geneve.</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Customer name</strong></td>
+<td>sdagf uyfuyf</td>
+</tr>
+<tr>
+<td><strong>Reservation no</strong></td>
+<td>142</td>
+</tr>
+<tr>
+<td><strong>Restaurant</strong></td>
+<td>Bateau Geneve</td>
+</tr>
+<tr>
+<td><strong>No of guest(s)</strong></td>
+<td>12 person(s)</td>
+</tr>
+<tr>
+<td><strong>Reservation date</strong></td>
+<td>Saturday, 4th May 2024</td>
+</tr>
+<tr>
+<td><strong>Reservation time</strong></td>
+<td>17:00</td>
+</tr>
+</tbody>
+</table>
 
                                 </td>
                             </tr>
@@ -1424,7 +1490,7 @@ img {
         <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
                 </td>
             </tr>
         </table>
@@ -1439,21 +1505,22 @@ img {
 Content-Type: text/plain; charset=utf-8
 Content-Transfer-Encoding: quoted-printable
 
-Hi Vlad Testaa,
+You received a table reservation from Bateau Geneve.
 
-Thank you for your reservation!
-
-Your reservation 129 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:12] local.DEBUG: Message-ID: <62b7d0dd7ac561c1438f1a67ac20276b@swift.generated>
-Date: Thu, 02 May 2024 16:59:12 +0200
-Subject: TastyIgniter reservation confirmation - 130
+Customer name: sdagf uyfuyf
+Reservation no: 142
+Restaurant: Bateau Geneve
+No of guest(s): 12 person(s)
+Reservation date: Saturday, 4th May 2024
+Reservation time: 17:00  
+[2024-05-03 14:20:25] local.DEBUG: Message-ID: <101272a6be90238000ef2751259eb3db@localhost>
+Date: Fri, 03 May 2024 14:20:25 +0200
+Subject: Your Reservation Update - 142
 From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
+To: sdagf uyfuyf <v.temneanu@wecode.swiss>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="_=_swift_1714661952_f20a89585eec8e736815043014248751_=_"
+ boundary="_=_swift_1714738825_2bd3b2a91d595ba3bb8d874476ad1a24_=_"
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -1760,8 +1827,8 @@ img {
     <td class="header">
                 <span>
             <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
                     >
         </span>
             </td>
@@ -1771,5080 +1838,12 @@ img {
                             <!-- Body content -->
                             <tr>
                                 <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>130</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 130 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:12] local.DEBUG: Message-ID: <65f3bd572e99396717aaebd6d310399b@swift.generated>
-Date: Thu, 02 May 2024 16:59:12 +0200
-Subject: TastyIgniter reservation confirmation - 131
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714661952_0a7fc42d09b1856d669f4b31745b630e_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>131</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 131 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:50] local.DEBUG: Message-ID: <2516caa238aa74be3f0f923794312a3a@swift.generated>
-Date: Thu, 02 May 2024 16:59:50 +0200
-Subject: TastyIgniter reservation confirmation - 125
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Test1 Test1 <test1@test1.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714661990_33c299d27aac6ef03512b5e69c9141a5_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Test1 Test1,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>125</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:00 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Test1 Test1,
-
-Thank you for your reservation!
-
-Your reservation 125 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:00 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:50] local.DEBUG: Message-ID: <426e1f1b6aa1b8c9cb2ffe8cef87f8d8@swift.generated>
-Date: Thu, 02 May 2024 16:59:50 +0200
-Subject: TastyIgniter reservation confirmation - 127
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Test3 Test3 <Test3@Test3.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714661990_ab06ce8ad819a1df50384d7890038733_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Test3 Test3,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>127</strong> at Bateau Geneve has been booked for 4 person(s) on Saturday, 4th May 2024 at 05:00 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Test3 Test3,
-
-Thank you for your reservation!
-
-Your reservation 127 at Bateau Geneve has been booked for 4 person(s) on Saturday, 4th May 2024 at 05:00 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:50] local.DEBUG: Message-ID: <4ae21e85b5b28335205537cfc259439a@swift.generated>
-Date: Thu, 02 May 2024 16:59:50 +0200
-Subject: TastyIgniter reservation confirmation - 128
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714661990_a440a99a07be03710e6902556d39e7d7_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>128</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 128 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:50] local.DEBUG: Message-ID: <e54e5586c672e9f64e69c2edfa08692d@swift.generated>
-Date: Thu, 02 May 2024 16:59:50 +0200
-Subject: TastyIgniter reservation confirmation - 129
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714661990_8348c69db4e82e5d58d38b8e0eaf0ace_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>129</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 129 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:50] local.DEBUG: Message-ID: <83068b222e862a5135653745cb8b867a@swift.generated>
-Date: Thu, 02 May 2024 16:59:50 +0200
-Subject: TastyIgniter reservation confirmation - 130
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714661990_646d4529755606df3575854a21f64122_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>130</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 130 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 16:59:50] local.DEBUG: Message-ID: <f14815b95df99fe1c3244b60b1df4bac@swift.generated>
-Date: Thu, 02 May 2024 16:59:50 +0200
-Subject: TastyIgniter reservation confirmation - 131
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714661990_8f65dac342572e88717b7766133a7489_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>131</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 131 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 17:00:12] local.DEBUG: Message-ID: <d6e880dbc2ab4a9be0135cb11aea2356@swift.generated>
-Date: Thu, 02 May 2024 17:00:12 +0200
-Subject: TastyIgniter reservation confirmation - 125
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Test1 Test1 <test1@test1.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714662012_b5e566253c2df68706b0dae950bce9e9_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Test1 Test1,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>125</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:00 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Test1 Test1,
-
-Thank you for your reservation!
-
-Your reservation 125 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:00 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 17:00:12] local.DEBUG: Message-ID: <fe10214277f7217b702291176677a90c@swift.generated>
-Date: Thu, 02 May 2024 17:00:12 +0200
-Subject: TastyIgniter reservation confirmation - 127
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Test3 Test3 <Test3@Test3.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714662012_a6a40933cfdd59360467068d0dab0685_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Test3 Test3,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>127</strong> at Bateau Geneve has been booked for 4 person(s) on Saturday, 4th May 2024 at 05:00 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Test3 Test3,
-
-Thank you for your reservation!
-
-Your reservation 127 at Bateau Geneve has been booked for 4 person(s) on Saturday, 4th May 2024 at 05:00 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 17:00:12] local.DEBUG: Message-ID: <33c0fd235289408f99185b338f068381@swift.generated>
-Date: Thu, 02 May 2024 17:00:12 +0200
-Subject: TastyIgniter reservation confirmation - 128
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714662012_3533c86112de8c9d1c6a103b62434ee7_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>128</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 128 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 17:00:12] local.DEBUG: Message-ID: <1f30cfbca2ca306d54c4e7577085a223@swift.generated>
-Date: Thu, 02 May 2024 17:00:12 +0200
-Subject: TastyIgniter reservation confirmation - 129
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714662012_c0505b4434b0a38631cffc15e4521cb8_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>129</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 129 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 17:00:12] local.DEBUG: Message-ID: <b9ef4fca1c970a79f02557f086f26353@swift.generated>
-Date: Thu, 02 May 2024 17:00:12 +0200
-Subject: TastyIgniter reservation confirmation - 130
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714662012_7e37cd4f138434babe7a7f0af37eef54_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>130</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 130 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 17:00:12] local.DEBUG: Message-ID: <6269aa7e36cbbc804970ef7f6e8ae39c@swift.generated>
-Date: Thu, 02 May 2024 17:00:12 +0200
-Subject: TastyIgniter reservation confirmation - 131
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Vlad Testaa <admin@asfafa.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714662012_3088b5059184b206694ed8fb0121e048_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="https://localhost:8888/bateau-geneve/storage/temp/public/bea/845/aaf/thumb_bea845aaf7dadebd18c748a0442bf4a1_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Vlad Testaa,</p>
-<h2>Thank you for your reservation!</h2>
-<p>Your reservation <strong>131</strong> at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.</p>
-<p>Thanks for reserving with us online!</p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-    <td>
-        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
-                </td>
-            </tr>
-        </table>
-    </td>
-</tr>            </table>
-        </td>
-    </tr>
-</table>
-</body>
-</html>
-
-Content-Type: text/plain; charset=utf-8
-Content-Transfer-Encoding: quoted-printable
-
-Hi Vlad Testaa,
-
-Thank you for your reservation!
-
-Your reservation 131 at Bateau Geneve has been booked for 2 person(s) on Thursday, 2nd May 2024 at 05:30 pm.
-
-Thanks for reserving with us online!  
-[2024-05-02 17:06:07] local.DEBUG: Message-ID: <c57c60b4d50cd5e472bb1fc51fd90291@localhost>
-Date: Thu, 02 May 2024 17:06:07 +0200
-Subject: Your Reservation Update - 126
-From: TastyIgniter <v.temneanu@wecode.swiss>
-To: Test2 Test2 <Test2@Test2.com>
-MIME-Version: 1.0
-Content-Type: multipart/alternative;
- boundary="_=_swift_1714662367_fcc5b7fd37c2a576c40e2b2df3692942_=_"
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
-<body>
-<style type="text/css">
-    /* Base */
-
-body, body *:not(html):not(style):not(br):not(tr):not(code) {
-  font-family: Avenir, Helvetica, sans-serif;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #F5F5F5;
-  color: #74787E;
-  height: 100%;
-  hyphens: auto;
-  line-height: 1.4;
-  margin: 0;
-  -moz-hyphens: auto;
-  -ms-word-break: break-all;
-  width: 100% !important;
-  -webkit-hyphens: auto;
-  -webkit-text-size-adjust: none;
-  word-break: break-all;
-  word-break: break-word;
-}
-
-p,
-ul,
-ol,
-blockquote {
-  line-height: 1.4;
-  text-align: left;
-}
-
-a {
-  color: #3869D4;
-}
-
-a img {
-  border: none;
-}
-
-/* Typography */
-
-h1 {
-  color: #2F3133;
-  font-size: 19px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h2 {
-  color: #2F3133;
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-h3 {
-  color: #2F3133;
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  text-align: left;
-}
-
-p {
-  color: #74787E;
-  font-size: 16px;
-  line-height: 1.5em;
-  margin-top: 0;
-  text-align: left;
-}
-
-p.sub {
-  font-size: 12px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* Layout */
-
-.wrapper {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.content {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-/* Header */
-
-.header {
-  padding: 25px 0;
-  text-align: center;
-}
-
-.header a {
-  color: #bbbfc3;
-  font-size: 19px;
-  font-weight: bold;
-  text-decoration: none;
-  text-shadow: 0 1px 0 white;
-}
-
-/* Body */
-
-.body {
-  background-color: #F5F5F5;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.inner-body {
-  background-color: #FFFFFF;
-  margin: 0 auto;
-  padding: 0;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-/* Subcopy */
-
-.subcopy {
-  border-top: 1px solid #EDEFF2;
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
-.subcopy p {
-  font-size: 12px;
-}
-
-/* Footer */
-
-.footer {
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  width: 570px;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 570px;
-}
-
-.footer p {
-  color: #AEAEAE;
-  font-size: 12px;
-  text-align: center;
-}
-
-/* Tables */
-
-.table table {
-  margin: 30px auto;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.table th {
-  border-bottom: 1px solid #EDEFF2;
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.table td {
-  color: #74787E;
-  font-size: 15px;
-  line-height: 18px;
-  padding: 10px 0;
-  margin: 0;
-}
-
-.content-cell {
-  padding: 35px;
-}
-
-/* Buttons */
-
-.action {
-  margin: 30px auto;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.button {
-  border-radius: 3px;
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-  color: #FFF;
-  display: inline-block;
-  text-decoration: none;
-  -webkit-text-size-adjust: none;
-}
-
-.button-blue, .button-primary {
-  background-color: #3097D1;
-  border-top: 10px solid #3097D1;
-  border-right: 18px solid #3097D1;
-  border-bottom: 10px solid #3097D1;
-  border-left: 18px solid #3097D1;
-}
-
-.button-green, .button-success {
-  background-color: #2ab27b;
-  border-top: 10px solid #2ab27b;
-  border-right: 18px solid #2ab27b;
-  border-bottom: 10px solid #2ab27b;
-  border-left: 18px solid #2ab27b;
-}
-
-.button-red, .button-danger {
-  background-color: #bf5329;
-  border-top: 10px solid #bf5329;
-  border-right: 18px solid #bf5329;
-  border-bottom: 10px solid #bf5329;
-  border-left: 18px solid #bf5329;
-}
-
-/* Panels */
-
-.panel {
-  margin: 0 0 21px;
-}
-
-.panel-content {
-  background-color: #EDEFF2;
-  padding: 16px;
-}
-
-.panel-item {
-  padding: 0;
-}
-
-.panel-item p:last-of-type {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-/* Promotions */
-
-.promotion {
-  background-color: #FFFFFF;
-  border: 2px dashed #9BA2AB;
-  margin: 0;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 24px;
-  width: 100%;
-  -premailer-cellpadding: 0;
-  -premailer-cellspacing: 0;
-  -premailer-width: 100%;
-}
-
-.promotion h1 {
-  text-align: center;
-}
-
-.promotion p {
-  font-size: 15px;
-  text-align: center;
-}
-    
-</style>
-
-<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
-    <tr>
-        <td align="center">
-            <table class="content" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-    <td class="header">
-                <span>
-            <img
-                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1713880820_0x90_contain.png"
-                        alt="TastyIgniter"
-                    >
-        </span>
-            </td>
-</tr>                <tr>
-                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
-                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
-                            <!-- Body content -->
-                            <tr>
-                                <td class="content-cell">
-                                    <p>Hi Test2 Test2,</p>
-<p>Your reservation <strong>126</strong> at <strong>Bateau Geneve</strong> has been updated to the following status:
+                                    <p>Hi sdagf uyfuyf,</p>
+<p>Your reservation <strong>142</strong> at <strong>Bateau Geneve</strong> has been updated to the following status:
 <br>
 <strong>Confirmed</strong></p>
 <p>The comments for your reservation are: <br>
-Bklablalbalblablksadhfugsadozfo asdfg sadfuozsadgf sadfgsado fi</p>
+Your table reservation has been confirmed.</p>
 <table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">
     <tr>
         <td>
@@ -6875,7 +1874,7 @@ Bklablalbalblablksadhfugsadozfo asdfg sadfuozsadgf sadfgsado fi</p>
         <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
-                    <p>&copy; 2024 TastyIgniter. All rights reserved.</p>
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
                 </td>
             </tr>
         </table>
@@ -6892,187 +1891,1550 @@ Content-Transfer-Encoding: quoted-printable
 
 Reservation Update!
 
-Your reservation 126 at Bateau Geneve has been updated to the following status: Confirmed
+Your reservation 142 at Bateau Geneve has been updated to the following status: Confirmed
 
 The comments for your reservation are:
-Bklablalbalblablksadhfugsadozfo asdfg sadfuozsadgf sadfgsado fi
+Your table reservation has been confirmed.
 
 To view your reservation progress, click the link below
 http://localhost:8888/Bateau-Geneve/account/reservations  
-[2024-05-03 11:40:16] local.ERROR: Error: Call to a member function getFormConfig() on null in /Applications/MAMP/htdocs/bateau-geneve/app/system/Models/Themes_model.php:243
-Stack trace:
-#0 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/Theme.php(242): System\Models\Themes_model->getThemeData()
-#1 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/Theme.php(390): Main\Classes\Theme->getCustomData()
-#2 /Applications/MAMP/htdocs/bateau-geneve/storage/framework/views/fd1e8b60eeda5facb15665fb3369a30f.php(4): Main\Classes\Theme->__get('favicon')
-#3 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(121): include('/Applications/M...')
-#4 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(85): Igniter\Flame\Pagic\Template->evaluatePath('/Applications/M...', Array)
-#5 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(66): Igniter\Flame\Pagic\Template->getContents(Array)
-#6 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(628): Igniter\Flame\Pagic\Template->render(Array)
-#7 /Applications/MAMP/htdocs/bateau-geneve/storage/framework/views/18a4264c6389ff4c18e69f8b1107b0e8.php(5): Main\Classes\MainController->renderPartial('head')
-#8 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(121): include('/Applications/M...')
-#9 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(85): Igniter\Flame\Pagic\Template->evaluatePath('/Applications/M...', Array)
-#10 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(66): Igniter\Flame\Pagic\Template->getContents(Array)
-#11 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(283): Igniter\Flame\Pagic\Template->render(Array)
-#12 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(201): Main\Classes\MainController->runPage(Object(Main\Template\Page))
-#13 /Applications/MAMP/htdocs/bateau-geneve/app/system/Classes/Controller.php(97): Main\Classes\MainController->remap('default/reserva...')
-#14 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): System\Classes\Controller->run('default/reserva...')
-#15 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('run', Array)
-#16 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Route.php(261): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'run')
-#17 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
-#18 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\Routing\Route->run()
-#19 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#20 /Applications/MAMP/htdocs/bateau-geneve/extensions/igniter/user/middleware/ThrottleRequests.php(20): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#21 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\User\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure))
-#22 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Translation/Middleware/Localization.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#23 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\Flame\Translation\Middleware\Localization->handle(Object(Illuminate\Http\Request), Object(Closure))
-#24 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#25 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#26 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#27 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#28 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#29 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
-#30 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#31 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#32 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#33 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#34 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#35 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#36 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#37 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#38 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(662): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
-#39 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Router/CoreRouter.php(22): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#40 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(167): Igniter\Flame\Router\CoreRouter->dispatch(Object(Illuminate\Http\Request))
-#41 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#42 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Setting/Middleware/SaveSetting.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#43 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\Flame\Setting\Middleware\SaveSetting->handle(Object(Illuminate\Http\Request), Object(Closure))
-#44 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#45 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
-#46 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#47 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#48 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
-#49 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#50 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
-#51 /Applications/MAMP/htdocs/bateau-geneve/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#52 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\Cors\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
-#53 /Applications/MAMP/htdocs/bateau-geneve/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#54 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\Proxy\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#55 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#56 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#57 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#58 /Applications/MAMP/htdocs/bateau-geneve/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#59 {main}
+[2024-05-03 14:25:16] local.DEBUG: Message-ID: <51d875c497c38b1d2d001a9e5caaac87@localhost>
+Date: Fri, 03 May 2024 14:25:15 +0200
+Subject: Your Reservation Update - 142
+From: TastyIgniter <v.temneanu@wecode.swiss>
+To: sdagf uyfuyf <v.temneanu@wecode.swiss>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1714739116_325e75c8be6cd9beef48e78347e29d72_=_"
 
-Next ErrorException: Call to a member function getFormConfig() on null (View: /Applications/MAMP/htdocs/bateau-geneve/themes/tastyigniter-orange/_partials/head.blade.php) in /Applications/MAMP/htdocs/bateau-geneve/app/system/Models/Themes_model.php:243
-Stack trace:
-#0 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(124): Igniter\Flame\Pagic\Template->handleException(Object(Error), 2)
-#1 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(85): Igniter\Flame\Pagic\Template->evaluatePath('/Applications/M...', Array)
-#2 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(66): Igniter\Flame\Pagic\Template->getContents(Array)
-#3 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(628): Igniter\Flame\Pagic\Template->render(Array)
-#4 /Applications/MAMP/htdocs/bateau-geneve/storage/framework/views/18a4264c6389ff4c18e69f8b1107b0e8.php(5): Main\Classes\MainController->renderPartial('head')
-#5 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(121): include('/Applications/M...')
-#6 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(85): Igniter\Flame\Pagic\Template->evaluatePath('/Applications/M...', Array)
-#7 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(66): Igniter\Flame\Pagic\Template->getContents(Array)
-#8 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(283): Igniter\Flame\Pagic\Template->render(Array)
-#9 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(201): Main\Classes\MainController->runPage(Object(Main\Template\Page))
-#10 /Applications/MAMP/htdocs/bateau-geneve/app/system/Classes/Controller.php(97): Main\Classes\MainController->remap('default/reserva...')
-#11 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): System\Classes\Controller->run('default/reserva...')
-#12 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('run', Array)
-#13 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Route.php(261): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'run')
-#14 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
-#15 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\Routing\Route->run()
-#16 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#17 /Applications/MAMP/htdocs/bateau-geneve/extensions/igniter/user/middleware/ThrottleRequests.php(20): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#18 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\User\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure))
-#19 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Translation/Middleware/Localization.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#20 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\Flame\Translation\Middleware\Localization->handle(Object(Illuminate\Http\Request), Object(Closure))
-#21 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#22 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#23 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#24 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#25 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#26 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
-#27 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#28 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#29 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#30 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#31 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#32 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#33 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#34 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#35 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(662): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
-#36 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Router/CoreRouter.php(22): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#37 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(167): Igniter\Flame\Router\CoreRouter->dispatch(Object(Illuminate\Http\Request))
-#38 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#39 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Setting/Middleware/SaveSetting.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#40 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\Flame\Setting\Middleware\SaveSetting->handle(Object(Illuminate\Http\Request), Object(Closure))
-#41 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#42 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
-#43 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#44 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#45 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
-#46 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#47 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
-#48 /Applications/MAMP/htdocs/bateau-geneve/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#49 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\Cors\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
-#50 /Applications/MAMP/htdocs/bateau-geneve/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#51 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\Proxy\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#52 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#53 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#54 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#55 /Applications/MAMP/htdocs/bateau-geneve/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#56 {main}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<style type="text/css">
+    /* Base */
 
-Next ErrorException: Call to a member function getFormConfig() on null (View: /Applications/MAMP/htdocs/bateau-geneve/themes/tastyigniter-orange/_partials/head.blade.php) (View: /Applications/MAMP/htdocs/bateau-geneve/themes/tastyigniter-orange/_layouts/default.blade.php) in /Applications/MAMP/htdocs/bateau-geneve/app/system/Models/Themes_model.php:243
-Stack trace:
-#0 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(124): Igniter\Flame\Pagic\Template->handleException(Object(ErrorException), 1)
-#1 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(85): Igniter\Flame\Pagic\Template->evaluatePath('/Applications/M...', Array)
-#2 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Pagic/Template.php(66): Igniter\Flame\Pagic\Template->getContents(Array)
-#3 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(283): Igniter\Flame\Pagic\Template->render(Array)
-#4 /Applications/MAMP/htdocs/bateau-geneve/app/main/Classes/MainController.php(201): Main\Classes\MainController->runPage(Object(Main\Template\Page))
-#5 /Applications/MAMP/htdocs/bateau-geneve/app/system/Classes/Controller.php(97): Main\Classes\MainController->remap('default/reserva...')
-#6 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): System\Classes\Controller->run('default/reserva...')
-#7 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('run', Array)
-#8 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Route.php(261): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\Route), Object(System\Classes\Controller), 'run')
-#9 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate\Routing\Route->runController()
-#10 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(721): Illuminate\Routing\Route->run()
-#11 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
-#12 /Applications/MAMP/htdocs/bateau-geneve/extensions/igniter/user/middleware/ThrottleRequests.php(20): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#13 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\User\Middleware\ThrottleRequests->handle(Object(Illuminate\Http\Request), Object(Closure))
-#14 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Translation/Middleware/Localization.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#15 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\Flame\Translation\Middleware\Localization->handle(Object(Illuminate\Http\Request), Object(Closure))
-#16 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#17 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Routing\Middleware\SubstituteBindings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#18 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#19 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\View\Middleware\ShareErrorsFromSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#20 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#21 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\Session\Middleware\StartSession->handleStatefulRequest(Object(Illuminate\Http\Request), Object(Illuminate\Session\Store), Object(Closure))
-#22 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Session\Middleware\StartSession->handle(Object(Illuminate\Http\Request), Object(Closure))
-#23 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#24 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse->handle(Object(Illuminate\Http\Request), Object(Closure))
-#25 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#26 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Cookie\Middleware\EncryptCookies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#27 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#28 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#29 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(698): Illuminate\Routing\Router->runRouteWithinStack(Object(Illuminate\Routing\Route), Object(Illuminate\Http\Request))
-#30 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Routing/Router.php(662): Illuminate\Routing\Router->runRoute(Object(Illuminate\Http\Request), Object(Illuminate\Routing\Route))
-#31 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Router/CoreRouter.php(22): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
-#32 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(167): Igniter\Flame\Router\CoreRouter->dispatch(Object(Illuminate\Http\Request))
-#33 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(128): Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}(Object(Illuminate\Http\Request))
-#34 /Applications/MAMP/htdocs/bateau-geneve/vendor/tastyigniter/flame/src/Setting/Middleware/SaveSetting.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#35 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Igniter\Flame\Setting\Middleware\SaveSetting->handle(Object(Illuminate\Http\Request), Object(Closure))
-#36 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#37 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\Foundation\Http\Middleware\TransformsRequest->handle(Object(Illuminate\Http\Request), Object(Closure))
-#38 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\TrimStrings->handle(Object(Illuminate\Http\Request), Object(Closure))
-#39 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#40 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\ValidatePostSize->handle(Object(Illuminate\Http\Request), Object(Closure))
-#41 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#42 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Illuminate\Foundation\Http\Middleware\PreventRequestsDuringMaintenance->handle(Object(Illuminate\Http\Request), Object(Closure))
-#43 /Applications/MAMP/htdocs/bateau-geneve/vendor/fruitcake/laravel-cors/src/HandleCors.php(38): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#44 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fruitcake\Cors\HandleCors->handle(Object(Illuminate\Http\Request), Object(Closure))
-#45 /Applications/MAMP/htdocs/bateau-geneve/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#46 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(167): Fideloper\Proxy\TrustProxies->handle(Object(Illuminate\Http\Request), Object(Closure))
-#47 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(103): Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}(Object(Illuminate\Http\Request))
-#48 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(142): Illuminate\Pipeline\Pipeline->then(Object(Closure))
-#49 /Applications/MAMP/htdocs/bateau-geneve/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
-#50 /Applications/MAMP/htdocs/bateau-geneve/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
-#51 {main}  
+body, body *:not(html):not(style):not(br):not(tr):not(code) {
+  font-family: Avenir, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  color: #74787E;
+  height: 100%;
+  hyphens: auto;
+  line-height: 1.4;
+  margin: 0;
+  -moz-hyphens: auto;
+  -ms-word-break: break-all;
+  width: 100% !important;
+  -webkit-hyphens: auto;
+  -webkit-text-size-adjust: none;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  line-height: 1.4;
+  text-align: left;
+}
+
+a {
+  color: #3869D4;
+}
+
+a img {
+  border: none;
+}
+
+/* Typography */
+
+h1 {
+  color: #2F3133;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h2 {
+  color: #2F3133;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h3 {
+  color: #2F3133;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+p {
+  color: #74787E;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-top: 0;
+  text-align: left;
+}
+
+p.sub {
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Layout */
+
+.wrapper {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+/* Header */
+
+.header {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.header a {
+  color: #bbbfc3;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+}
+
+/* Body */
+
+.body {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.inner-body {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+/* Subcopy */
+
+.subcopy {
+  border-top: 1px solid #EDEFF2;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.subcopy p {
+  font-size: 12px;
+}
+
+/* Footer */
+
+.footer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+.footer p {
+  color: #AEAEAE;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Tables */
+
+.table table {
+  margin: 30px auto;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.table th {
+  border-bottom: 1px solid #EDEFF2;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.table td {
+  color: #74787E;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.content-cell {
+  padding: 35px;
+}
+
+/* Buttons */
+
+.action {
+  margin: 30px auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.button {
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+}
+
+.button-blue, .button-primary {
+  background-color: #3097D1;
+  border-top: 10px solid #3097D1;
+  border-right: 18px solid #3097D1;
+  border-bottom: 10px solid #3097D1;
+  border-left: 18px solid #3097D1;
+}
+
+.button-green, .button-success {
+  background-color: #2ab27b;
+  border-top: 10px solid #2ab27b;
+  border-right: 18px solid #2ab27b;
+  border-bottom: 10px solid #2ab27b;
+  border-left: 18px solid #2ab27b;
+}
+
+.button-red, .button-danger {
+  background-color: #bf5329;
+  border-top: 10px solid #bf5329;
+  border-right: 18px solid #bf5329;
+  border-bottom: 10px solid #bf5329;
+  border-left: 18px solid #bf5329;
+}
+
+/* Panels */
+
+.panel {
+  margin: 0 0 21px;
+}
+
+.panel-content {
+  background-color: #EDEFF2;
+  padding: 16px;
+}
+
+.panel-item {
+  padding: 0;
+}
+
+.panel-item p:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Promotions */
+
+.promotion {
+  background-color: #FFFFFF;
+  border: 2px dashed #9BA2AB;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 24px;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.promotion h1 {
+  text-align: center;
+}
+
+.promotion p {
+  font-size: 15px;
+  text-align: center;
+}
+    
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+            <table class="content" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+    <td class="header">
+                <span>
+            <img
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
+                    >
+        </span>
+            </td>
+</tr>                <tr>
+                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
+                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
+                            <!-- Body content -->
+                            <tr>
+                                <td class="content-cell">
+                                    <p>Hi sdagf uyfuyf,</p>
+<p>Your reservation <strong>142</strong> at <strong>Bateau Geneve</strong> has been updated to the following status:
+<br>
+<strong>Confirmed</strong></p>
+<p>The comments for your reservation are: <br>
+Your table reservation has been confirmed.</p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <a href="http://localhost:8888/Bateau-Geneve/account/reservations" class="button button-primary" target="_blank">View your reservation status</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+    <td>
+        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="content-cell" align="center">
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Reservation Update!
+
+Your reservation 142 at Bateau Geneve has been updated to the following status: Confirmed
+
+The comments for your reservation are:
+Your table reservation has been confirmed.
+
+To view your reservation progress, click the link below
+http://localhost:8888/Bateau-Geneve/account/reservations  
+[2024-05-03 14:28:40] local.DEBUG: Message-ID: <217cdd8aa5d360640a37620619691e7c@localhost>
+Date: Fri, 03 May 2024 14:28:40 +0200
+Subject: Your Reservation Update - 142
+From: TastyIgniter <v.temneanu@wecode.swiss>
+To: sdagf uyfuyf <v.temneanu@wecode.swiss>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1714739320_a4820895ab7cfff3640ae10de72d7374_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<style type="text/css">
+    /* Base */
+
+body, body *:not(html):not(style):not(br):not(tr):not(code) {
+  font-family: Avenir, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  color: #74787E;
+  height: 100%;
+  hyphens: auto;
+  line-height: 1.4;
+  margin: 0;
+  -moz-hyphens: auto;
+  -ms-word-break: break-all;
+  width: 100% !important;
+  -webkit-hyphens: auto;
+  -webkit-text-size-adjust: none;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  line-height: 1.4;
+  text-align: left;
+}
+
+a {
+  color: #3869D4;
+}
+
+a img {
+  border: none;
+}
+
+/* Typography */
+
+h1 {
+  color: #2F3133;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h2 {
+  color: #2F3133;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h3 {
+  color: #2F3133;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+p {
+  color: #74787E;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-top: 0;
+  text-align: left;
+}
+
+p.sub {
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Layout */
+
+.wrapper {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+/* Header */
+
+.header {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.header a {
+  color: #bbbfc3;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+}
+
+/* Body */
+
+.body {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.inner-body {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+/* Subcopy */
+
+.subcopy {
+  border-top: 1px solid #EDEFF2;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.subcopy p {
+  font-size: 12px;
+}
+
+/* Footer */
+
+.footer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+.footer p {
+  color: #AEAEAE;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Tables */
+
+.table table {
+  margin: 30px auto;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.table th {
+  border-bottom: 1px solid #EDEFF2;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.table td {
+  color: #74787E;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.content-cell {
+  padding: 35px;
+}
+
+/* Buttons */
+
+.action {
+  margin: 30px auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.button {
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+}
+
+.button-blue, .button-primary {
+  background-color: #3097D1;
+  border-top: 10px solid #3097D1;
+  border-right: 18px solid #3097D1;
+  border-bottom: 10px solid #3097D1;
+  border-left: 18px solid #3097D1;
+}
+
+.button-green, .button-success {
+  background-color: #2ab27b;
+  border-top: 10px solid #2ab27b;
+  border-right: 18px solid #2ab27b;
+  border-bottom: 10px solid #2ab27b;
+  border-left: 18px solid #2ab27b;
+}
+
+.button-red, .button-danger {
+  background-color: #bf5329;
+  border-top: 10px solid #bf5329;
+  border-right: 18px solid #bf5329;
+  border-bottom: 10px solid #bf5329;
+  border-left: 18px solid #bf5329;
+}
+
+/* Panels */
+
+.panel {
+  margin: 0 0 21px;
+}
+
+.panel-content {
+  background-color: #EDEFF2;
+  padding: 16px;
+}
+
+.panel-item {
+  padding: 0;
+}
+
+.panel-item p:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Promotions */
+
+.promotion {
+  background-color: #FFFFFF;
+  border: 2px dashed #9BA2AB;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 24px;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.promotion h1 {
+  text-align: center;
+}
+
+.promotion p {
+  font-size: 15px;
+  text-align: center;
+}
+    
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+            <table class="content" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+    <td class="header">
+                <span>
+            <img
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
+                    >
+        </span>
+            </td>
+</tr>                <tr>
+                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
+                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
+                            <!-- Body content -->
+                            <tr>
+                                <td class="content-cell">
+                                    <p>Hi sdagf uyfuyf,</p>
+<p>Your reservation <strong>142</strong> at <strong>Bateau Geneve</strong> has been updated to the following status:
+<br>
+<strong>Confirmed</strong></p>
+<p>The comments for your reservation are: <br>
+Your table reservation has been confirmed.</p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <a href="http://localhost:8888/Bateau-Geneve/account/reservations" class="button button-primary" target="_blank">View your reservation status</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+    <td>
+        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="content-cell" align="center">
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Reservation Update!
+
+Your reservation 142 at Bateau Geneve has been updated to the following status: Confirmed
+
+The comments for your reservation are:
+Your table reservation has been confirmed.
+
+To view your reservation progress, click the link below
+http://localhost:8888/Bateau-Geneve/account/reservations  
+[2024-05-03 14:30:47] local.DEBUG: Message-ID: <b0b22aa19d62cc9bfd154ccb8adacf9b@localhost>
+Date: Fri, 03 May 2024 14:30:46 +0200
+Subject: Your Reservation Update - 142
+From: TastyIgniter <v.temneanu@wecode.swiss>
+To: sdagf uyfuyf <v.temneanu@wecode.swiss>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1714739447_ed6dba84f60dad67c63041602a37abcf_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<style type="text/css">
+    /* Base */
+
+body, body *:not(html):not(style):not(br):not(tr):not(code) {
+  font-family: Avenir, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  color: #74787E;
+  height: 100%;
+  hyphens: auto;
+  line-height: 1.4;
+  margin: 0;
+  -moz-hyphens: auto;
+  -ms-word-break: break-all;
+  width: 100% !important;
+  -webkit-hyphens: auto;
+  -webkit-text-size-adjust: none;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  line-height: 1.4;
+  text-align: left;
+}
+
+a {
+  color: #3869D4;
+}
+
+a img {
+  border: none;
+}
+
+/* Typography */
+
+h1 {
+  color: #2F3133;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h2 {
+  color: #2F3133;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h3 {
+  color: #2F3133;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+p {
+  color: #74787E;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-top: 0;
+  text-align: left;
+}
+
+p.sub {
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Layout */
+
+.wrapper {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+/* Header */
+
+.header {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.header a {
+  color: #bbbfc3;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+}
+
+/* Body */
+
+.body {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.inner-body {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+/* Subcopy */
+
+.subcopy {
+  border-top: 1px solid #EDEFF2;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.subcopy p {
+  font-size: 12px;
+}
+
+/* Footer */
+
+.footer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+.footer p {
+  color: #AEAEAE;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Tables */
+
+.table table {
+  margin: 30px auto;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.table th {
+  border-bottom: 1px solid #EDEFF2;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.table td {
+  color: #74787E;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.content-cell {
+  padding: 35px;
+}
+
+/* Buttons */
+
+.action {
+  margin: 30px auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.button {
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+}
+
+.button-blue, .button-primary {
+  background-color: #3097D1;
+  border-top: 10px solid #3097D1;
+  border-right: 18px solid #3097D1;
+  border-bottom: 10px solid #3097D1;
+  border-left: 18px solid #3097D1;
+}
+
+.button-green, .button-success {
+  background-color: #2ab27b;
+  border-top: 10px solid #2ab27b;
+  border-right: 18px solid #2ab27b;
+  border-bottom: 10px solid #2ab27b;
+  border-left: 18px solid #2ab27b;
+}
+
+.button-red, .button-danger {
+  background-color: #bf5329;
+  border-top: 10px solid #bf5329;
+  border-right: 18px solid #bf5329;
+  border-bottom: 10px solid #bf5329;
+  border-left: 18px solid #bf5329;
+}
+
+/* Panels */
+
+.panel {
+  margin: 0 0 21px;
+}
+
+.panel-content {
+  background-color: #EDEFF2;
+  padding: 16px;
+}
+
+.panel-item {
+  padding: 0;
+}
+
+.panel-item p:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Promotions */
+
+.promotion {
+  background-color: #FFFFFF;
+  border: 2px dashed #9BA2AB;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 24px;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.promotion h1 {
+  text-align: center;
+}
+
+.promotion p {
+  font-size: 15px;
+  text-align: center;
+}
+    
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+            <table class="content" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+    <td class="header">
+                <span>
+            <img
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
+                    >
+        </span>
+            </td>
+</tr>                <tr>
+                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
+                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
+                            <!-- Body content -->
+                            <tr>
+                                <td class="content-cell">
+                                    <p>Hi sdagf uyfuyf,</p>
+<p>Your reservation <strong>142</strong> at <strong>Bateau Geneve</strong> has been updated to the following status:
+<br>
+<strong>Confirmed</strong></p>
+<p>The comments for your reservation are: <br>
+Your table reservation has been confirmed.</p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <a href="http://localhost:8888/Bateau-Geneve/account/reservations" class="button button-primary" target="_blank">View your reservation status</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+    <td>
+        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="content-cell" align="center">
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Reservation Update!
+
+Your reservation 142 at Bateau Geneve has been updated to the following status: Confirmed
+
+The comments for your reservation are:
+Your table reservation has been confirmed.
+
+To view your reservation progress, click the link below
+http://localhost:8888/Bateau-Geneve/account/reservations  
+[2024-05-03 14:36:29] local.DEBUG: Message-ID: <b4ef0607fe37eaa93556a44c7cbe51f1@localhost>
+Date: Fri, 03 May 2024 14:36:29 +0200
+Subject: Your Reservation Update - 142
+From: TastyIgniter <v.temneanu@wecode.swiss>
+To: sdagf uyfuyf <v.temneanu@wecode.swiss>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_1714739789_fe6b556c2e02b1215a93c3047f9c2d69_=_"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<style type="text/css">
+    /* Base */
+
+body, body *:not(html):not(style):not(br):not(tr):not(code) {
+  font-family: Avenir, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+  color: #74787E;
+  height: 100%;
+  hyphens: auto;
+  line-height: 1.4;
+  margin: 0;
+  -moz-hyphens: auto;
+  -ms-word-break: break-all;
+  width: 100% !important;
+  -webkit-hyphens: auto;
+  -webkit-text-size-adjust: none;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  line-height: 1.4;
+  text-align: left;
+}
+
+a {
+  color: #3869D4;
+}
+
+a img {
+  border: none;
+}
+
+/* Typography */
+
+h1 {
+  color: #2F3133;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h2 {
+  color: #2F3133;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+h3 {
+  color: #2F3133;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: left;
+}
+
+p {
+  color: #74787E;
+  font-size: 16px;
+  line-height: 1.5em;
+  margin-top: 0;
+  text-align: left;
+}
+
+p.sub {
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Layout */
+
+.wrapper {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+/* Header */
+
+.header {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.header a {
+  color: #bbbfc3;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+}
+
+/* Body */
+
+.body {
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.inner-body {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+/* Subcopy */
+
+.subcopy {
+  border-top: 1px solid #EDEFF2;
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.subcopy p {
+  font-size: 12px;
+}
+
+/* Footer */
+
+.footer {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  width: 570px;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 570px;
+}
+
+.footer p {
+  color: #AEAEAE;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Tables */
+
+.table table {
+  margin: 30px auto;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.table th {
+  border-bottom: 1px solid #EDEFF2;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.table td {
+  color: #74787E;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.content-cell {
+  padding: 35px;
+}
+
+/* Buttons */
+
+.action {
+  margin: 30px auto;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.button {
+  border-radius: 3px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
+  color: #FFF;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+}
+
+.button-blue, .button-primary {
+  background-color: #3097D1;
+  border-top: 10px solid #3097D1;
+  border-right: 18px solid #3097D1;
+  border-bottom: 10px solid #3097D1;
+  border-left: 18px solid #3097D1;
+}
+
+.button-green, .button-success {
+  background-color: #2ab27b;
+  border-top: 10px solid #2ab27b;
+  border-right: 18px solid #2ab27b;
+  border-bottom: 10px solid #2ab27b;
+  border-left: 18px solid #2ab27b;
+}
+
+.button-red, .button-danger {
+  background-color: #bf5329;
+  border-top: 10px solid #bf5329;
+  border-right: 18px solid #bf5329;
+  border-bottom: 10px solid #bf5329;
+  border-left: 18px solid #bf5329;
+}
+
+/* Panels */
+
+.panel {
+  margin: 0 0 21px;
+}
+
+.panel-content {
+  background-color: #EDEFF2;
+  padding: 16px;
+}
+
+.panel-item {
+  padding: 0;
+}
+
+.panel-item p:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Promotions */
+
+.promotion {
+  background-color: #FFFFFF;
+  border: 2px dashed #9BA2AB;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 24px;
+  width: 100%;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0;
+  -premailer-width: 100%;
+}
+
+.promotion h1 {
+  text-align: center;
+}
+
+.promotion p {
+  font-size: 15px;
+  text-align: center;
+}
+    
+</style>
+
+<table class="wrapper" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+            <table class="content" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+    <td class="header">
+                <span>
+            <img
+                        src="http://localhost:8888/Bateau-Geneve/storage/temp/public/866/aec/649/thumb_866aec649ba82e8b291a2ca4830b4d0a_1714728689_0x90_contain.png"
+                        alt="Bateau Geneve"
+                    >
+        </span>
+            </td>
+</tr>                <tr>
+                    <td class="body" width="100%" cellpadding="0" cellspacing="0">
+                        <table class="inner-body" align="center" width="570" cellpadding="0" cellspacing="0">
+                            <!-- Body content -->
+                            <tr>
+                                <td class="content-cell">
+                                    <p>Hi sdagf uyfuyf,</p>
+<p>Your reservation <strong>142</strong> at <strong>Bateau Geneve</strong> has been updated to the following status:
+<br>
+<strong>Confirmed</strong></p>
+<p>The comments for your reservation are: <br>
+Your table reservation has been confirmed.</p>
+<table class="action" align="center" width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+        <td>
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <table border="0" cellpadding="0" cellspacing="0">
+                            <tr>
+                                <td>
+                                    <a href="http://localhost:8888/Bateau-Geneve/account/reservations" class="button button-primary" target="_blank">View your reservation status</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+    <td>
+        <table class="footer" align="center" width="570" cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="content-cell" align="center">
+                    <p>&copy; 2024 Bateau Geneve. All rights reserved.</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Reservation Update!
+
+Your reservation 142 at Bateau Geneve has been updated to the following status: Confirmed
+
+The comments for your reservation are:
+Your table reservation has been confirmed.
+
+To view your reservation progress, click the link below
+http://localhost:8888/Bateau-Geneve/account/reservations  

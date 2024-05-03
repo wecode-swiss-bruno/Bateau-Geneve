@@ -69,11 +69,11 @@
         </div>
     @endif
 </div>
-<div class="form-row">
+<div class="form-row" style="padding-top: 25px; padding-bottom: 25px;">
     <div class="col">
-        {!! form_error('guest', '<span class="help-block text-danger">', '</span>') !!}
-        {!! form_error('date', '<span class="help-block text-danger">', '</span>') !!}
-        {!! form_error('time', '<span class="help-block text-danger">', '</span>') !!}
+        {!! form_error('guest', '<span class="help-block text-danger alert alert-danger">', '</span>') !!}
+        {!! form_error('date', '<span class="help-block text-danger alert alert-danger">', '</span>') !!}
+        {!! form_error('time', '<span class="help-block text-danger alert alert-danger">', '</span>') !!}
     </div>
 </div>
 

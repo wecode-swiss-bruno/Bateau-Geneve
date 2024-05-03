@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'system_name' => 'TastyIgniter',
-    'system_powered' => '<a target="_blank" href="http://tastyigniter.com">Propulsé par TastyIgniter</a>',
-    'copyright' => 'Merci d\'utiliser <a target="_blank" href="http://tastyigniter.com">TastyIgniter</a>',
+    'system_name' => 'Wecode',
+    'system_powered' => '<a target="_blank" href="https://wecode.swiss">Développé par Wecode</a>',
+    'copyright' => 'Merci d\'utiliser <a target="_blank" href="https://wecode.swiss">Wecode</a>',
     'version' => '<b>Version :</b> %s',
 
     'no_database' => [
@@ -49,7 +49,7 @@ return [
         'date_format' => 'DD MMM YYYY',
         'date_format_short' => 'DD MMM',
         'date_format_long' => 'dddd, Do MMM YYYY',
-        'time_format' => 'hh:mm',
+        'time_format' => 'HH:mm',
         'date_time_format' => 'DD MMM YYYY - HH:mm',
         'date_time_format_short' => 'DD MMM \a\t HH:mm',
         'date_time_format_long' => 'dddd, Do MMMM YYYY \a\t HH:mm ',

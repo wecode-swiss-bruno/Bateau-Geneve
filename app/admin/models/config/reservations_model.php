@@ -223,6 +223,7 @@ $config['form']['tabs'] = [
             'label' => 'lang:admin::lang.reservations.label_reservation_date',
             'type' => 'datepicker',
             'mode' => 'date',
+            'default' => '210',
             'span' => 'right',
             'cssClass' => 'flex-width',
         ],

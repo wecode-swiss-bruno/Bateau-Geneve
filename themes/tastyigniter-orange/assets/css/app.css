@@ -3393,6 +3393,12 @@ textarea.form-control-lg, textarea.input-lg {
   text-decoration: none;
   white-space: nowrap;
 }
+
+.navbar-top .navbar-brand .img-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -16751,19 +16757,6 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-end, body.swal2-toast-shown
 .navbar-top .navbar-nav .nav-link, .navbar-top .navbar-nav .nav .navbar > li > a, .nav .navbar-top .navbar-nav .navbar > li > a {
   color: #ff4900;
 }
-
-a[reservation-btn] {
-  background-color: rgb(0, 157, 226);
-  border-radius: 0.5rem;
-  color: #fff !important;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-a[reservation-btn]:hover {
-  background-color: rgb(233, 77, 51);
-}
-
 .navbar-top .navbar-nav .nav-link.active, .navbar-top .navbar-nav .nav .navbar > li > a.active, .nav .navbar-top .navbar-nav .navbar > li > a.active {
   font-weight: 600;
 }
@@ -16988,11 +16981,25 @@ a[reservation-btn]:hover {
 .local-search .dropdown-toggle::after {
   content: none;
 }
+
 .footer {
   width: 100%;
   color: #ffffff;
-  background-color: #e94d33;
+  background-color: rgb(0, 157, 226);
 }
+
+a[reservation-btn] {
+  background-color: rgb(0, 157, 226);
+  border-radius: 0.5rem;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a[reservation-btn]:hover {
+  background-color: rgb(233, 77, 51);
+}
+
 .footer a {
   color: #ffffff;
   text-decoration: none;

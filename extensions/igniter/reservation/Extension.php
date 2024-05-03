@@ -175,6 +175,19 @@ class Extension extends \System\Classes\BaseExtension
                         'condition' => 'checked',
                     ],
                 ],
+                'min_reservation_advance_time_hour' => [
+                    'label' => 'lang:igniter.reservation::default.label_min_reservation_advance_time_hour',
+                    'accordion' => 'lang:igniter.reservation::default.text_tab_reservation',
+                    'type' => 'datepicker',
+                    'mode' => 'time',
+                    'span' => 'left',
+                    'comment' => 'lang:igniter.reservation::default.help_min_reservation_advance_time_hour',
+                    'trigger' => [
+                        'action' => 'enable',
+                        'field' => 'offer_reservation',
+                        'condition' => 'checked',
+                    ],
+                ],
                 'limit_guests' => [
                     'label' => 'lang:igniter.reservation::default.label_limit_guests',
                     'accordion' => 'lang:igniter.reservation::default.text_tab_reservation',

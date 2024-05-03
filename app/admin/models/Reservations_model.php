@@ -78,8 +78,10 @@ class Reservations_model extends Model
     public $appends = ['customer_name', 'duration', 'table_name', 'reservation_datetime', 'reservation_end_datetime'];
 
     public static $allowedSortingColumns = [
-        'reservation_id asc', 'reservation_id desc',
-        'reserve_date asc', 'reserve_date desc',
+        'reservation_id asc',
+        'reservation_id desc',
+        'reserve_date asc',
+        'reserve_date desc',
     ];
 
     //
@@ -99,7 +101,7 @@ class Reservations_model extends Model
         $this->restorePurgedValues();
 
         if (array_key_exists('tables', $this->attributes)) {
-            $this->addReservationTables((array)$this->attributes['tables']);
+            $this->addReservationTables((array) $this->attributes['tables']);
         }
 
         if ($this->location->getOption('auto_allocate_table', 1) && !$this->tables()->count()) {
@@ -187,7 +189,7 @@ class Reservations_model extends Model
     public function scopeWhereBetweenDate($query, $dateTime)
     {
         $query->whereRaw(
-            '? between DATE_SUB(ADDTIME(reserve_date, reserve_time), INTERVAL (duration - 2) MINUTE)'.
+            '? between DATE_SUB(ADDTIME(reserve_date, reserve_time), INTERVAL (duration - 2) MINUTE)' .
             ' and DATE_ADD(ADDTIME(reserve_date, reserve_time), INTERVAL duration MINUTE)',
             [$dateTime]
         );
@@ -201,7 +203,7 @@ class Reservations_model extends Model
 
     public function getCustomerNameAttribute($value)
     {
-        return $this->first_name.' '.$this->last_name;
+        return $this->first_name . ' ' . $this->last_name;
     }
 
     public function getDurationAttribute($value)
@@ -228,9 +230,11 @@ class Reservations_model extends Model
 
     public function getReservationDatetimeAttribute($value)
     {
-        if (!isset($this->attributes['reserve_date'])
+        if (
+            !isset($this->attributes['reserve_date'])
             && !isset($this->attributes['reserve_time'])
-        ) return null;
+        )
+            return null;
 
         return make_carbon($this->attributes['reserve_date'])
             ->setTimeFromTimeString($this->attributes['reserve_time']);
@@ -311,7 +315,78 @@ class Reservations_model extends Model
         $query->where('status_id', setting('confirmed_reservation_status'));
         $result = $query->get();
 
+
+        // echo '<pre>';
+        // print_r($result);
+        // echo '</pre>';
+
         return $result->pluck('tables')->flatten()->keyBy('table_id');
+    }
+
+    public static function findReservedButNotFullTables($location, $dateTime)
+    {
+        $query = self::with('tables');
+        $query->whereHas('tables', function ($query) use ($location) {
+            $query->whereHasLocation($location->getKey());
+        });
+        $query->whereLocationId($location->getKey());
+        $query->whereBetweenDate($dateTime->toDateTimeString());
+        $query->where('status_id', setting('confirmed_reservation_status'));
+        $result = $query->get();
+
+        $results = $result->pluck('tables')->flatten()->keyBy('table_id');
+
+
+
+        foreach ($results as $key => $value) {
+            // echo 'key:' . $key;
+            // echo '<br>';
+            // echo 'value:' . $value->max_capacity;
+
+            $query_reservations = self::with('tables');
+            $query_reservations->whereHas('tables', function ($query_reservations) use ($location, $key) {
+                $query_reservations->whereHasLocation($location->getKey());
+                $query_reservations->where('tables.table_id', '=', $key);
+            });
+            $query_reservations->whereLocationId($location->getKey());
+            $query_reservations->whereBetweenDate($dateTime->toDateTimeString());
+            $query_reservations->where('status_id', setting('confirmed_reservation_status'));
+            $result_reservations = $query_reservations->get();
+
+            // echo '<pre>';
+            // print_r($result_reservations);
+            // echo '</pre>';
+
+            $used_capacity = 0;
+            foreach ($result_reservations as $reservation) {
+                $used_capacity += $reservation->attributes['guest_num'];
+            }
+
+            // echo 'used_capacity:' . $used_capacity;
+
+            if ($value->max_capacity - $used_capacity <= 0) {
+                unset($results[$key]);
+            } else {
+                $results[$key]->attributes['available_capacity'] = $value->max_capacity - $used_capacity;
+            }
+
+
+
+
+
+
+        }
+
+
+
+        // echo '<pre>';
+        // print_r($results);
+        // echo '</pre>';
+
+        return $results;
+
+
+
     }
 
     public static function listCalendarEvents($startAt, $endAt, $locationId = null)
@@ -340,7 +415,7 @@ class Reservations_model extends Model
 
         return [
             'id' => $this->getKey(),
-            'title' => $this->table_name.' ('.$this->guest_num.')',
+            'title' => $this->table_name . ' (' . $this->guest_num . ')',
             'start' => $this->reservation_datetime->toIso8601String(),
             'end' => $this->reservation_end_datetime->toIso8601String(),
             'allDay' => $this->isReservedAllDay(),
@@ -433,14 +508,53 @@ class Reservations_model extends Model
         $tables = $this->location->tables->where('table_status', 1);
 
         $reserved = static::findReservedTables($this->location, $this->reservation_datetime);
+        $reservedButNotFull = static::findReservedButNotFullTables($this->location, $this->reservation_datetime);
+
+        // echo '<pre>';
+        // print_r($reservedButNotFull);
+        // echo '</pre>';
+
+        // echo '<pre>';
+        // print_r($tables);
+        // echo '</pre>';
+
+
+       
+
 
         $tables = $tables->diff($reserved)->sortBy('priority');
+  
+        if($tables->isNotEmpty()){
+            $tables = $tables->merge($reservedButNotFull);
+        }
+        else{
+            $tables = $reservedButNotFull;
+            // echo '<pre>';
+            // print($tables );
+            // echo '</pre>';
+        }
+
+
+
+
+        // $tables = $tables->diff($reserved)->sortBy('priority');
 
         $result = collect();
         $unseatedGuests = $this->guest_num;
         foreach ($tables as $table) {
-            if ($table->min_capacity <= $this->guest_num && $table->max_capacity >= $this->guest_num)
+            // echo 'table:';
+            // echo '<pre>';
+            // print_r($table);
+            // echo '</pre>';
+            if (!isset($table->available_capacity)) {
+                if ($table->min_capacity <= $this->guest_num && $table->max_capacity >= $this->guest_num) {
+                    return collect([$table]);
+                }
+            } elseif ($table->min_capacity <= $this->guest_num && $table->available_capacity >= $this->guest_num) {
                 return collect([$table]);
+            } else {
+                break;
+            }
 
             if ($table->is_joinable && $unseatedGuests >= $table->min_capacity) {
                 $result->push($table);
@@ -460,7 +574,7 @@ class Reservations_model extends Model
     public function mailGetReplyTo($type)
     {
         $replyTo = [];
-        if (in_array($type, (array)setting('reservation_email', []))) {
+        if (in_array($type, (array) setting('reservation_email', []))) {
             switch ($type) {
                 case 'location':
                 case 'admin':
