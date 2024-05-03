@@ -69,6 +69,7 @@ class ReservationAttribute extends BaseModelAttributesCondition
 
     public function getHoursUntilAttribute($value, $reservation)
     {
+        // print('hours untill');
         $currentDateTime = now();
 
         return $currentDateTime->isBefore($reservation->reservation_datetime)

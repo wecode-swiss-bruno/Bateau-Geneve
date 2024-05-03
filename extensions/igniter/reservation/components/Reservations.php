@@ -36,6 +36,13 @@ class Reservations extends \System\Classes\BaseComponent
                 'options' => [static::class, 'getThemePageOptions'],
                 'validationRule' => 'required|regex:/^[a-z0-9\-_\/]+$/i',
             ],
+            'newReservationsPage' => [
+                'label' => 'Account Reservations Page',
+                'type' => 'select',
+                'default' => 'default'.DIRECTORY_SEPARATOR.'reservation',
+                'options' => [static::class, 'getThemePageOptions'],
+                'validationRule' => 'required|regex:/^[a-z0-9\-_\/]+$/i',
+            ],
             'hashParamName' => [
                 'label' => 'The parameter name used for the reservation hash code',
                 'type' => 'text',
@@ -70,6 +77,7 @@ class Reservations extends \System\Classes\BaseComponent
         $validated = $this->validate(request()->input(), [
             'reservationId' => ['required', 'numeric'],
             'cancel_reason' => ['string', 'max:255'],
+            'isEdit' => ['bool']
         ]);
 
         if (!$reservation = Reservations_model::find($validated['reservationId']))
@@ -85,7 +93,16 @@ class Reservations extends \System\Classes\BaseComponent
 
         flash()->success(lang('igniter.reservation::default.reservations.alert_cancel_success'));
 
-        return redirect()->to($this->controller->pageUrl($this->property('reservationsPage')));
+            if(Reservations_model::find($validated['reservationId']))
+            {
+                return redirect()->to($this->controller->pageUrl($this->property('newReservationsPage')));
+
+            }
+            else{
+                return redirect()->to($this->controller->pageUrl($this->property('reservationsPage')));
+
+            }
+
     }
 
     protected function getReservation()

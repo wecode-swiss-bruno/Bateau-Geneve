@@ -1,6 +1,5 @@
 // List Filter State Toggle
 // Uses user cookie value to show/hide list filter bar
-
 $(function () {
     var $listFilterButton = $('[data-toggle="list-filter"]'),
         $listFilterTarget = $($listFilterButton.data('target')),
@@ -83,13 +82,4 @@ $(function ($) {
         $('[data-action-counter]').html(counter)
         $('[data-action-select-all]').prop('disabled', true)
     }
-})
-
-
-var $table = $('#lists-table')
-
-$(function() {
-  $table.bootstrapTable({
-    printStyles: ['https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css']
-  })
 })

@@ -14,7 +14,6 @@ class Reservations extends \Admin\Classes\AdminController
     public $implement = [
         'Admin\Actions\ListController',
         'Admin\Actions\CalendarController',
-        'Admin\Actions\PrintListController',
         'Admin\Actions\FormController',
         'Admin\Actions\AssigneeController',
         'Admin\Actions\LocationAwareController',
@@ -35,15 +34,6 @@ class Reservations extends \Admin\Classes\AdminController
             'title' => 'lang:admin::lang.reservations.text_title',
             'emptyMessage' => 'lang:admin::lang.reservations.text_no_booking',
             'popoverPartial' => 'reservations/calendar_popover',
-            'configFile' => 'reservations_model',
-        ],
-    ];
-
-    public $printListConfig = [
-        'printList' => [
-            'title' => 'lang:admin::lang.reservations.text_title',
-            'emptyMessage' => 'lang:admin::lang.reservations.text_no_booking',
-            'popoverPartial' => 'reservations/printList',
             'configFile' => 'reservations_model',
         ],
     ];
