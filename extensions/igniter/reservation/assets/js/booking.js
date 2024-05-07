@@ -23,10 +23,12 @@
         if (this.$guestPicker = this.$el.find('[name="guest"]'))
             this.initGuestPicker();
 
-        if (this.$time = this.$el.find('[name="time"]'))
-            this.initTimePicker();
+        // if (this.$time = this.$el.find('[name="time"]'))
+        //     this.initTimePicker();
 
         this.$el.on('change', 'select[name="date"]', $.proxy(this.onSelectDate, this));
+        this.$el.on('change', 'select[name="guest"]', $.proxy(this.onSelectGuest, this));
+
     }
 
     Booking.prototype.initDatePicker = function () {
@@ -50,7 +52,7 @@
 
     Booking.prototype.initGuestPicker = function () {
         this.$guestPickerValue = this.$guestPicker.val();
-        this.$guestPicker.on('change', $.proxy(this.onHtmlUpdate, this));
+        this.$guestPicker.on('change', $.proxy(this.onSelectGuest, this));
     }
 
     // Booking.prototype.initTimePicker = function () {
@@ -58,29 +60,41 @@
     //     this.$timepicker.on('change', $.proxy(this.onHtmlUpdate, this));
     // }
 
-    Booking.prototype.initTimePicker = function () {
-        // this.$time = this.$time.val();
+    //ROLOAD
 
-       
-        
-        this.$time.on('change', $.proxy(this.onHtmlUpdate, this));
-    }
+    // Booking.prototype.initTimePicker = function () {
+    //     // this.$time = this.$time.val();
+    //     this.$time.on('change', $.proxy(this.onHtmlUpdate, this));
+    // }
 
     Booking.prototype.onSelectDatePicker = function (event) {
-        var pickerDate = moment(event.date.toDateString())
-        var lockerValue = pickerDate.format('YYYY-MM-DD')
+        var pickerDate = moment(event.date.toDateString());
+        var lockerValue = pickerDate.format('YYYY-MM-DD');
         this.$datePickerValue = lockerValue;
         this.$dataLocker.val(lockerValue);
         this.onHtmlUpdate();
     }
 
-    // Booking.prototype.onSelectGuest = function(event) {
-    //     var guestValue = event.target.value;
-    //     var lockerGuestValue = guestValue;
-    //     this.$guestPickerValue = lockerGuestValue;
-    //     this.$dataLocker.val(lockerGuestValue);
-    //     this.onHtmlUpdate();
-    // }
+    Booking.prototype.onSelectGuest = function(event) {
+        // this.$datePicker.trigger('changeDate');
+        this.$datePicker.on('changeDate');
+        // this.$datePickerValue = this.$el.find('[name="date"]').val();
+        this.onSelectDatePicker();
+
+        var guestValue = event.target.value;
+        var lockerGuestValue = guestValue;
+        this.$guestPickerValue = lockerGuestValue;
+
+        // if (date) {
+        //     var pickerDate = moment(date);
+        //     var lockerValue = pickerDate.format('YYYY-MM-DD');
+        //     this.$datePickerValue = lockerValue;
+        //     this.$dataLocker.val(lockerValue);
+        // }
+
+        this.$dataLocker.val(lockerGuestValue);
+        this.onHtmlUpdate();
+    }
 
 
     Booking.prototype.onSelectDate = function (event) {
@@ -99,6 +113,9 @@
 
         this.$el.find('.help-block').remove();
 
+        console.log(this.$el.find('[name="date"]').val())
+
+        // this.$datePickerValue = this.$el.find('[name="date"]').val();
         this.$guestPickerValue = this.$el.find('[name="guest"]').val();
 
         jQuery.ajax(location.pathname + '?&date=' + this.$datePickerValue + '&guest=' + this.$guestPickerValue, {
@@ -115,27 +132,31 @@
         html = jQuery.parseHTML(html);
 
         html.forEach(function (node) {
+  
+            
             if (node.tagName && node.tagName.toUpperCase() == 'MAIN') {
-                var newEl, currentEl;
-                if ((newEl = node.querySelector('#ti-datepicker-options #noOfGuests')) && (currentEl = document.querySelector('#ti-datepicker-options #noOfGuests'))) {
-                    currentEl.innerHTML = newEl.innerHTML;
-                }
-            }
-            if (node.tagName && node.tagName.toUpperCase() == 'MAIN') {
-                var newEl, currentEl;
-                if ((newEl = node.querySelector('#ti-datepicker-options #time')) && (currentEl = document.querySelector('#ti-datepicker-options #time'))) {
-                    console.log(newEl.innerHTML);
-                    if($.trim(newEl.innerHTML)){
-                        currentEl.innerHTML = newEl.innerHTML;
-                        $('#ti-datepicker-options button[type="submit"]').prop('disabled', false);
-
+                var newEl =node.querySelector('#ti-datepicker-options');
+                var currentEl = document.querySelector('#ti-datepicker-options')
+                var newElTime = node.querySelector('#ti-datepicker-options #time');
+                var newElGuests = node.querySelector('#ti-datepicker-options #noOfGuests');
+                if(node.querySelector('#ti-datepicker-options button[type="submit"]')){
+                    if($.trim(newElTime.innerHTML)){
+                        newEl.querySelector('#ti-datepicker-options button[type="submit"]').disabled = false;
                     }
                     else{
-                        currentEl.innerHTML = '<option disabled">Pas de table disponible</option>';
-                        $('#ti-datepicker-options button[type="submit"]').prop('disabled', true);
+                        newElTime.innerHTML = '<option disabled">Venez sans réserver</option>';
+                        newEl.querySelector('#ti-datepicker-options button[type="submit"]').disabled = true;
                     }
                 }
+                    newEl.querySelector('#ti-datepicker-options #noOfGuests').innerHTML = newElGuests.innerHTML;
+                    newEl.querySelector('#ti-datepicker-options #time').innerHTML = newElTime.innerHTML;
+                    currentEl.innerHTML = newEl.innerHTML;
+
+                
+       
+           
             }
+            
         });
 
 
@@ -178,7 +199,7 @@
     $(document).render(function () {
         $('[data-control="booking"]').booking()
         if(isEmpty($('[name="time"]'))){
-            $('[name="time"]').html('<option disabled">Pas de table disponible</option>');
+            $('[name="time"]').html('<option disabled">Venez sans réserver</option>');
             $('#ti-datepicker-options button[type="submit"]').prop('disabled', true);
         }
     })

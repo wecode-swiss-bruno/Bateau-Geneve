@@ -77,7 +77,7 @@ return [
     'button_filter' => 'Filtre',
     'button_save' => '<i class="fa fa-save"></i>&nbsp;&nbsp;Enregistrer',
     'button_save_close' => '<i class="fa fa-save"></i>&nbsp;&nbsp;Enregistrer & Fermer',
-    'button_icon_back' => '<i class="fa fa-arrow-left px-0">',
+    'button_icon_back' => '<i class="fa fa-arrow-left px-0"></i>',
     'button_icon_filter' => '<i class="fa fa-times"></i>',
     'button_icon_delete' => '<i class="fa fa-trash-o"></i>',
     'button_close' => 'Fermer',

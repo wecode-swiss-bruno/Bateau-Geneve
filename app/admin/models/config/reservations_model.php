@@ -205,6 +205,8 @@ $config['form']['tabs'] = [
             'label' => 'lang:admin::lang.reservations.label_table_name',
             'type' => 'relation',
             'nameFrom' => 'table_name',
+            'placeholder' => 'lang:admin::lang.text_please_select',
+
         ],
         'guest_num' => [
             'label' => 'lang:admin::lang.reservations.label_guest',
@@ -216,6 +218,8 @@ $config['form']['tabs'] = [
             'label' => 'lang:admin::lang.reservations.label_reservation_duration',
             'type' => 'number',
             'span' => 'left',
+            'default' => '210',
+
             'cssClass' => 'flex-width',
             'comment' => 'lang:admin::lang.reservations.help_reservation_duration',
         ],
@@ -223,7 +227,6 @@ $config['form']['tabs'] = [
             'label' => 'lang:admin::lang.reservations.label_reservation_date',
             'type' => 'datepicker',
             'mode' => 'date',
-            'default' => '210',
             'span' => 'right',
             'cssClass' => 'flex-width',
         ],
@@ -238,21 +241,25 @@ $config['form']['tabs'] = [
             'label' => 'lang:admin::lang.reservations.label_first_name',
             'type' => 'text',
             'span' => 'left',
+            'default' => "Réservation"
         ],
         'last_name' => [
             'label' => 'lang:admin::lang.reservations.label_last_name',
             'type' => 'text',
             'span' => 'right',
+            'default' => 'Interne'
         ],
         'email' => [
             'label' => 'lang:admin::lang.label_email',
             'type' => 'text',
             'span' => 'left',
+            'default' => "resainterne@bateaugeneve.ch"
         ],
         'telephone' => [
             'label' => 'lang:admin::lang.reservations.label_customer_telephone',
             'type' => 'text',
             'span' => 'right',
+            'default' => '0220000000'
         ],
         'location_id' => [
             'label' => 'lang:admin::lang.reservations.text_tab_restaurant',
@@ -260,6 +267,7 @@ $config['form']['tabs'] = [
             'relationFrom' => 'location',
             'nameFrom' => 'location_name',
             'span' => 'left',
+            'default' => 1,
             'placeholder' => 'lang:admin::lang.text_please_select',
         ],
         'notify' => [

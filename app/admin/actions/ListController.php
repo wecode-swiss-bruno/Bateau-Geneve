@@ -102,6 +102,7 @@ class ListController extends ControllerAction
 
     public function index_onDelete()
     {
+        // print("here4");
         $checkedIds = post('checked');
         if (!$checkedIds || !is_array($checkedIds) || !count($checkedIds)) {
             flash()->success(lang('admin::lang.list.delete_empty'));

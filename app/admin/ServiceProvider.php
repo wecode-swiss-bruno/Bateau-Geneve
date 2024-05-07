@@ -328,21 +328,21 @@ class ServiceProvider extends AppServiceProvider
                         ],
                         'menus' => [
                             'priority' => 20,
-                            'class' => 'menus',
+                            'class' => 'd-block menus',
                             'href' => admin_url('menus'),
                             'title' => lang('admin::lang.side_menu.menu'),
                             'permission' => 'Admin.Menus',
                         ],
                         'categories' => [
                             'priority' => 30,
-                            'class' => 'categories',
+                            'class' => 'd-block categories',
                             'href' => admin_url('categories'),
                             'title' => lang('admin::lang.side_menu.category'),
                             'permission' => 'Admin.Categories',
                         ],
                         'mealtimes' => [
                             'priority' => 40,
-                            'class' => 'mealtimes',
+                            'class' => 'd-block mealtimes',
                             'href' => admin_url('mealtimes'),
                             'title' => lang('admin::lang.side_menu.mealtimes'),
                             'permission' => 'Admin.Mealtimes',
@@ -364,7 +364,7 @@ class ServiceProvider extends AppServiceProvider
                     'child' => [
                         'orders' => [
                             'priority' => 10,
-                            'class' => 'orders',
+                            'class' => 'd-block orders',
                             'href' => admin_url('orders'),
                             'title' => lang('admin::lang.side_menu.order'),
                             'permission' => 'Admin.Orders',
@@ -385,7 +385,7 @@ class ServiceProvider extends AppServiceProvider
                         ],
                         'payments' => [
                             'priority' => 50,
-                            'class' => 'payments',
+                            'class' => 'd-block payments',
                             'href' => admin_url('payments'),
                             'title' => lang('admin::lang.side_menu.payment'),
                             'permission' => 'Admin.Payments',
@@ -394,14 +394,14 @@ class ServiceProvider extends AppServiceProvider
                 ],
                 'marketing' => [
                     'priority' => 40,
-                    'class' => 'marketing',
+                    'class' => 'd-block marketing',
                     'icon' => 'fa-bullseye',
                     'title' => lang('admin::lang.side_menu.marketing'),
                     'child' => [],
                 ],
                 'design' => [
                     'priority' => 200,
-                    'class' => 'design',
+                    'class' => 'd-block design',
                     'icon' => 'fa-paint-brush',
                     'title' => lang('admin::lang.side_menu.design'),
                     'child' => [
@@ -431,7 +431,7 @@ class ServiceProvider extends AppServiceProvider
                 ],
                 'localisation' => [
                     'priority' => 300,
-                    'class' => 'localisation',
+                    'class' => 'd-block localisation',
                     'icon' => 'fa-globe',
                     'title' => lang('admin::lang.side_menu.localisation'),
                     'child' => [
@@ -460,7 +460,7 @@ class ServiceProvider extends AppServiceProvider
                 ],
                 'tools' => [
                     'priority' => 400,
-                    'class' => 'tools',
+                    'class' => 'd-block tools',
                     'icon' => 'fa-wrench',
                     'title' => lang('admin::lang.side_menu.tool'),
                     'child' => [
@@ -475,7 +475,7 @@ class ServiceProvider extends AppServiceProvider
                 ],
                 'system' => [
                     'priority' => 999,
-                    'class' => 'system',
+                    'class' => 'd-block system',
                     'icon' => 'fa-cog',
                     'title' => lang('admin::lang.side_menu.system'),
                     'child' => [

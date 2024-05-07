@@ -83,3 +83,14 @@ $(function ($) {
         $('[data-action-select-all]').prop('disabled', true)
     }
 })
+
+
+var $table = $('#printable-table')
+
+
+$(function($) {
+    $table.bootstrapTable({
+      printStyles: ['https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css']
+    })
+  })
+  

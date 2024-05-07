@@ -121,7 +121,7 @@ class BookingManager
 
         $reservation->save();
 
-       if ($reservation->guest_num <= 6) {
+       if ($reservation->guest_num <= 8) {
             $status = Statuses_model::find(setting('confirmed_reservation_status'));
             $reservation->addStatusHistory($status, ['notify' => true]);
             Event::fire('admin.statusHistory.added', [$reservation, $status, true]);

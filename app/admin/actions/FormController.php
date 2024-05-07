@@ -324,7 +324,7 @@ class FormController extends ControllerAction
     public function edit_onDelete($context = null, $recordId = null)
     {
         $this->context = $context ?: $this->getConfig('edit[context]', self::CONTEXT_EDIT);
-
+        // print("edit_onDelete" . $recordId);
         $model = $this->controller->formFindModelObject($recordId);
         $this->initForm($model, $context);
 

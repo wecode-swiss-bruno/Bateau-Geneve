@@ -35,7 +35,7 @@
                     <button
                         type="submit"
                         class="btn btn-primary"
-                        onclick="window.location.href = '/bateau-geneve/default/reservation';"
+                        onclick="window.location.href = '/default/reservation';"
                     >@lang('igniter.reservation::default.reservations.button_cancel')</button>
                 </div>
             </div>

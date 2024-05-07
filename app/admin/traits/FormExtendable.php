@@ -76,6 +76,7 @@ trait FormExtendable
     {
         $recordId = strip_tags($recordId); //remove html tags from url(reflective xss)
         if (!strlen($recordId)) {
+            // print("formFindModelObject    ");
             throw new Exception(lang('admin::lang.form.missing_id'));
         }
 
@@ -92,11 +93,13 @@ trait FormExtendable
         $result = $query->find($recordId);
 
         if (!$result) {
+            print($recordId);
             throw new Exception(sprintf(lang('admin::lang.form.not_found'), $recordId));
         }
 
         $result = $this->controller->formExtendModel($result) ?: $result;
 
+        
         return $result;
     }
 
